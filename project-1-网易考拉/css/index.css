@@ -1,0 +1,658 @@
+/*public*/
+.nav-bar .nav-list {
+    display: block;
+}
+/*<!--右浮动导航-->*/
+.nav-bar .right-fixed-guide {
+    position: absolute;
+    top: 570px;
+    right: -87px;
+    z-index: 50;
+    width: 68px;
+}
+/*<!--fool-1-->*/
+.fool-1 {
+    background-color: #F6F6F6;
+    padding: 24px 0 40px 0;
+    position: relative;
+}
+
+.fool-1 .container {
+    background: url("../img/index/f1-1.jpg") top center no-repeat;
+    height: 332px;
+
+}
+
+.fool-1 .container a {
+    width: 20%;
+    height: 100%;
+    display: inline-block;
+    margin: 0 25px;
+
+}
+
+/*<!--//左fixed导航-->*/
+.fool-1 .fixed-guide-left {
+    width: 99px;
+    position: absolute;
+    left: 50%;
+    margin-left: -665px;
+    top: 22px;
+    border: 1px solid #eaeaea;
+    background-color: white;
+}
+
+.fool-1 .fixed-guide-left > a {
+    display: block;
+    height: 50px;
+    line-height: 50px;
+    padding-left: 9px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+    text-decoration: none;
+    border-top: 1px solid #eaeaea;
+}
+.fool-1 .fixed-guide-left img {
+    display: block;
+}
+
+.fool-1 .fixed-guide-left ul {
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.fool-1 .fixed-guide-left li > a {
+    display: block;
+    height: 32px;
+    line-height: 32px;
+    padding-left: 9px;
+    font-size: 12px;
+    color: #999;
+    text-decoration: none;
+}
+
+.fool-1 .fixed-guide-left a:hover {
+    color: #FF1E32;
+    background-color: #F6F6F6;
+}
+
+/*<!--fool-2-->*/
+.fool .big-title {
+    color: #999;
+    padding: 32px 0 20px 0;
+
+}
+
+.fool {
+    background-color: #F6F6F6;
+}
+
+
+.fool .big-title .title > b {
+    font-size: 22px;
+    color: #333;
+    display: inline-block;
+    padding-right: 15px;
+}
+
+.fool .big-title .title > a {
+    display: inline-block;
+    padding-left: 10px;
+    color: rgb(102, 102, 102);
+
+}
+
+.fool .big-title .title > a.active {
+    color: rgb(255, 8, 15);
+}
+
+.fool .big-title .pull-right > a {
+    color: #999;
+    vertical-align: middle;
+}
+
+.fool-2 .big-title .title > .time {
+    display: inline-block;
+}
+.fool .container {
+    padding-bottom: 45px;
+    border-bottom: 1px solid #E9E9E9;
+}
+
+.fool-2 .big-title .title > .time > span {
+    display: inline-block;
+    padding: 2px 8px;
+    border: 1px solid #FF080F;
+    border-radius: 20px;
+    color: white;
+    background-color: #FF080F;
+
+}
+
+.fool-2 .big-title .title > .time > b {
+    margin: 0 2px 0 4px;
+}
+
+.fool-2 .big-title .title > .time > span:nth-of-type(2n) {
+    margin-left: -10px;
+}
+
+.fool-2 .big-title > .pull-right > a {
+    color: #999;
+    display: inline-block;
+}
+
+.fool-2.content-box {
+    width: 100%;
+}
+
+.fool-2 .content-box > .list {
+    width: 76%;
+
+}
+
+.fool-2 .content-box > .pull-left li {
+    width: 50%;
+    border: 1px solid #E9E9E9;
+    border-right: none;
+    /*display: inline-block;*/
+    background-color: white;
+    margin-bottom: -1px;
+    float: left;
+
+}
+
+.fool-2 .content-box > .pull-left li > a {
+    display: block;
+}
+
+.fool-2 .content-box > .pull-left li > .detail {
+    width: 210px;
+    display: block;
+    position: relative;
+}
+
+.fool-2 .content-box > .pull-left li > .detail > a {
+    display: inline-block;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .intro {
+    color: #333;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 0 5px 0;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .small-title {
+    line-height: 16px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #999;
+    height: 33px;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .price-r {
+    font-size: 20px;
+    font-weight: 400;
+    color: #ff1e32;
+    display: inline-block;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .price-d {
+    font-size: 14px;
+    font-weight: 400;
+    color: #999;
+    display: inline-block;
+    margin-right: 20px;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .rest {
+    width: 106px;
+    display: inline-block;
+    color: #999;
+    font-size: 14px;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .progress {
+    margin-top: 10px;
+    width: 100%;
+    height: 5px;
+    margin-bottom: 10px;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .progress-r {
+    height: 100%;
+    width: 94%;
+    background-color: red;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .buy-now {
+    display: inline-block;
+    border-radius: 15px;
+    width: 80px;
+    height: 36px;
+    line-height: 36px;
+    border: 1px solid #ff1e32;
+    text-align: center;
+    font-size: 14px;
+    color: #ff1e32;
+    text-decoration: none;
+    position: absolute;
+    right: 0px;
+    top: 129px;
+}
+
+.fool-2 .content-box > .pull-left li > .detail .buy-now:hover {
+    background-color: #FFF4F5;
+}
+
+/*<!--fool-3-->*/
+.fool-3 .picScroll-left {
+    position: relative;
+}
+
+.fool-3 .picScroll-left .prev {
+    position: absolute;
+    top: 110px;
+    left: 0;
+    z-index: 31;
+    text-decoration: none;
+    font-size: 20px;
+    height: 30px;
+    line-height: 30px;
+    width: 24px;
+    background-color: #000;
+    color: white;
+    opacity: 0.5;
+    text-align: center;
+    display: none;
+}
+
+.fool-3 .picScroll-left .next {
+    color: white;
+    background-color: #000;
+    height: 30px;
+    line-height: 30px;
+    width: 24px;
+    position: absolute;
+    top: 110px;
+    right: 0;
+    z-index: 31;
+    text-decoration: none;
+    font-size: 20px;
+    opacity: 0.5;
+    text-align: center;
+    display: none;
+}
+
+.fool-3 .picScroll-left:hover .next {
+    display: block;
+}
+
+.fool-3 .picScroll-left:hover .prev {
+    display: block;
+}
+
+.fool-3 .picScroll-left .hd > ul {
+    position: absolute;
+    z-index: 31;
+    top: 214px;
+    left: 0px;
+    width: 219px;
+    z-index: 30;
+}
+
+.fool-3 .picScroll-left .hd > ul li {
+    width: 33%;
+    height: 5px;
+    display: inline-block;
+    text-indent: -999px;
+
+}
+
+.fool-3 .picScroll-left .hd > ul li.on {
+    background-color: #F51D30;
+}
+
+.fool-3 .picScroll-left .bd {
+    width: 219px;
+}
+
+.fool-3 .picScroll-left .bd img {
+    width: 219px;
+    height: 219px;
+    display: block;
+
+}
+
+.fool-3 .picScroll-left .bd .title {
+    width: 100%;
+    height: 136px;
+    background-color: #151515;
+    opacity: .8;
+}
+
+.fool-3 .picScroll-left .bd .title a {
+    color: #fff;
+}
+
+.fool-3 .picScroll-left .bd .title .name {
+    display: block;
+    padding-top: 41px;
+    padding-bottom: 4px;
+    font-size: 20px;
+    font-weight: 700;
+    margin: 0 12px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+
+    text-align: center;
+
+}
+
+.fool-3 .picScroll-left .bd .title .detail {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    display: block;
+    font-size: 14px;
+    text-align: center;
+    margin: 0 12px;
+
+}
+
+.fool-3 .content-box .box-list ul {
+    width: 870px;
+
+}
+
+.fool-3 .content-box .box-list ul li {
+    width: 217px;
+    height: 178px;
+    margin-top: -1px;
+    margin-right: -1px;
+    position: relative;
+    float: left;
+    border: 1px solid #E9E9E9;
+    background-color: white;
+}
+
+.fool-3 .content-box .box-list ul li img {
+    display: block;
+    margin: 0 auto;
+    width: 120px;
+    height: 120px;
+}
+
+.fool-3 .content-box .box-list ul li > span {
+    text-align: center;
+    white-space: nowrap;
+    overflow: hidden;
+    font-size: 14px;
+    font-weight: 700;
+    display: block;
+}
+
+.fool-3 .content-box .box-list li .like {
+    z-index: 30;
+    display: inline-block;
+    position: absolute;
+    top: 10px;
+    left: 10px;
+    width: 52px;
+    height: 20px;
+    line-height: 20px;
+    color: #999;
+    border: 1px solid #999;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 15px;
+    font-size: 12px;
+    display: none;
+}
+
+.fool-3 .content-box .box-list li .like:hover {
+    background-color: #F5F5F5;
+}
+
+.fool-3 .content-box .box-list li .enter-box {
+    width: 100%;
+    position: absolute;
+    z-index: 30;
+    top: 100px;
+    left: 0;
+    text-align: center;
+    color: #999;
+    font-size: 12px;
+    display: none;
+}
+
+.fool-3 .content-box .box-list li .enter-box > a {
+    display: block;
+    margin: 5px auto;
+    width: 80px;
+    height: 36px;
+    box-sizing: border-box;
+    line-height: 32px;
+    color: #ff1e3c;
+    background-color: #fff;
+    text-decoration: none;
+    border-radius: 32px;
+    border: 2px solid #ff1e3c;
+    font-size: 14px;
+}
+
+.fool-3 .content-box .box-list li .enter-box > a:hover {
+    background-color: #FFF4F5;
+}
+
+/*<!--fool-4-->*/
+.fool-model .content-box {
+    padding-bottom: 20px;
+    width: 100%;
+}
+
+.fool-model .content-box > .img {
+    position: relative;
+}
+
+.fool-model .content-box > .img img {
+    width: 330px;
+    height: 541px;
+    display: block;
+}
+
+.fool-model .content-box > .img ul {
+    position: absolute;
+    bottom: 30px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+.fool-model .content-box > .img ul li {
+    display: inline-block;
+}
+
+.fool-model .content-box > .img ul li a {
+    display: block;
+    text-align: center;
+    vertical-align: middle;
+    width: 82px;
+    overflow: hidden;
+    font-size: 12px;
+    color: #333;
+    width: 82px;
+    height: 42px;
+    line-height: 42px;
+    background-color: white;
+    border: 1px solid #D9C6D4;
+    border-radius: 30px;
+}
+
+.fool-model .content-box > .img ul li a:hover {
+    background-color: #FBF5F9;
+    color: #FF1E32;
+}
+
+.fool-model .content-box > .part2 {
+    width: 540px;
+}
+
+.fool-model .content-box > .part2 li {
+    float: left;
+    width: 270px;
+    height: 271px;
+    background-color: white;
+    border: 1px solid #E9E9E9;
+    border-left: none;
+    margin-top: -1px;
+}
+
+.fool-model .content-box > .part2 li > a {
+    width: 100%;
+    height: 100%;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+}
+
+.fool-model .content-box > .part2 li > a > b {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #333;
+    font-size: 24px;
+    font-weight: 400;
+    display: block;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+
+.fool-model .content-box > .part2 li > a > span {
+    font-size: 14px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    color: #666;
+    display: block;
+    padding-top: 5px;
+}
+
+.fool-model .content-box > .part2 li > a > img {
+    display: block;
+    width: 180px;
+    margin: 15px auto 0 auto;
+}
+
+.fool-model .content-box > .part3 {
+    width: 220px;
+    border: 1px solid #E9E9E9;
+    background-color: white;
+    margin-left: -1px;
+}
+
+.fool-model .content-box > .part3 .title > span {
+    font-size: 16px;
+    line-height: 58px;
+    padding: 0 0 0 10px;
+    color: #333;
+    font-weight: 700;
+    height: 58px;
+}
+
+.fool-model .content-box > .part3 .title .swiper-pagination {
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+.fool-model .content-box > .part3 .swiper-container .swiper-slide {
+    height: 480px;
+}
+
+.fool-model .content-box > .part3 .title .swiper-pagination .swiper-pagination-bullet {
+    margin-right: 2px;
+}
+
+.swiper-pagination-bullet-active {
+    background-color: #333333;
+}
+
+.swiper-slide li {
+    border-top: 1px solid #E9E9E9;
+    height: 120px;
+
+}
+
+.swiper-slide li > .img {
+    float: left;
+    display: block;
+    margin-top: 27px;
+
+}
+
+.swiper-slide li > .title {
+    width: 119px;
+    height: 39px;
+    overflow: hidden;
+    display: block;
+    margin-top: 27px;
+    font-size: 12px;
+    color: #666;
+    line-height: 20px;
+    margin-bottom: 15px;
+}
+
+.swiper-slide li > span {
+    font-size: 20px;
+    font-weight: 700;
+    color: #ff1e32;
+}
+
+.swiper-slide li > del {
+    color: #999;
+    font-size: 14px;
+}
+
+.fool-model .hot-sell {
+    background-color: white;
+}
+
+.fool-model .hot-sell .title{
+    font-size: 16px;
+    color: #000;
+    font-weight: 700;
+    text-indent: 20px;
+    line-height: 48px;
+    height: 48px;
+    border: 1px solid #eaeaea;
+
+}
+.fool-model .hot-sell .img-list>a{
+    width: 219px;
+    height: 167px;
+    display: block;
+    float: left;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    position: relative;
+    margin-left: -1px;
+}
+.fool-model .hot-sell .img-list>a>img{
+    width: 120px;
+    height: 120px;
+    display: block;
+    margin: 22px auto 0 auto;
+}
+.fool-model .hot-sell .img-list>a>i{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    display: none;
+}
+.pre-button{
+display: none;
+}

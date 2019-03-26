@@ -1,0 +1,2533 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/swiper-4.5.0/css/swiper.min.css">
+    <!--头尾模板-->
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!--本页css-->
+    <link rel="stylesheet" href="./css/activity-flashSale.css">
+</head>
+<body>
+<div class="header">
+    <div class="user-info">
+        <div class="container clearfix">
+            <div class="pull-left">
+                <span>考拉欢迎你！</span>
+                <a href="">登陆</a>
+                <a href="">免费注册</a>
+                <a href="">手机考拉</a>
+            </div>
+            <div class="pull-right">
+                <a href="">每日签到</a>
+                <a href="">我的订单</a>
+                <!--个人中心-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1">
+                        个人中心
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">我的红包</a></li>
+                        <li><a href="#">我的考拉豆</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">账号管理</a></li>
+                        <li><a href="#">我的实名认证</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">我收藏的商品</a></li>
+                        <li><a href="#">我关注的品牌</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">售后管理</a></li>
+                    </ul>
+                </div>
+                <!--客户服务-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2">
+                        客户服务
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">知识产权保护</a></li>
+                        <li><a href="#">规则中心</a></li>
+                    </ul>
+                </div>
+                <!--充值中心-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3">
+                        充值中心
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <li><a href="#">话费流量</a></li>
+                        <li><a href="#">游戏充值</a></li>
+                        <li><a href="#">AppStore充值卡</a></li>
+                    </ul>
+                </div>
+                <!--消费者权益-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4">
+                        消费者权益
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <li><a href="#">消费者告知书</a></li>
+                        <li><a href="#">消费投诉公社</a></li>
+                    </ul>
+                </div>
+                <!--more-->
+                <div class="dropdown hover-qr">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5">
+                        更多
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <li><a href="#">收藏本站</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">新浪微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">易信公众号</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">招商合作</a></li>
+                        <li><a href="#">考拉招聘</a></li>
+
+                    </ul>
+                    <!--隐藏显示二维码-->
+                    <div class="show-qr">
+                        <img src="./img/header-footer/qr-21.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第二行-logo和搜索-->
+    <div class="logo-search">
+        <div class="container clearfix">
+            <div class="pull-left logo">
+                <a href="">
+                    <img src="./img/header-footer/logo-big.png" alt="">
+                </a>
+            </div>
+            <div class="pull-left search-input">
+                <div class="relative input-box">
+                    <span class="glyphicon glyphicon-search color-grey"></span>
+                    <input type="search" placeholder="艾维诺沐浴露">
+                    <a href="">
+                        <span class="glyphicon glyphicon-search color-white"></span>
+                    </a>
+                </div>
+                <div class="recommend">
+                    <a href="">面膜</a>
+                    <a href="">口红</a>
+                    <a href="">减肥</a>
+                    <a href="">全球工厂店</a>
+                    <a href="">运动鞋</a>
+                    <a href="">项链</a>
+                    <a href="">女包</a>
+                </div>
+            </div>
+            <div class="pull-left shop-car">
+                <a href="">
+                    <img src="./img/header-footer/shopcar.png" alt="">
+                    购物车
+                </a>
+            </div>
+        </div>
+    </div>
+    <!--浮动搜索栏-->
+    <!--<div class="logo-search fixed">-->
+    <!--<div class="container clearfix">-->
+    <!--<div class="pull-left logo">-->
+    <!--<a href="">-->
+    <!--<img src="./img/header-footer/logo-little.png" alt="">-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--<div class="pull-left search-input">-->
+    <!--<div class="relative input-box">-->
+    <!--<span class="glyphicon glyphicon-search color-grey"></span>-->
+    <!--<input type="search" placeholder="艾维诺沐浴露">-->
+    <!--<a href="">-->
+    <!--<span class="glyphicon glyphicon-search color-white"></span>-->
+    <!--</a>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--</div>-->
+    <!--第三层》》导航栏-->
+    <div class="nav-bar">
+        <div class="container clearfix relative">
+            <!--左边-竖直-导航-->
+            <div class="relative color-white pull-left">
+                <div class="all-classify ">
+                    <i class="glyphicon glyphicon-menu-hamburger"></i>
+                    <span>所有分类</span>
+                </div>
+                <ul class="nav-list">
+                    <!--//分类列表里的一小块-->
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-1-w.png" alt="">
+                        <span>美容彩妆</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-2-w.png" alt="">
+                        <span>母婴儿童</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-3-w.png" alt="">
+                        <span>营养保健</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-4-w.png" alt="">
+                        <span>数码家电</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-5-w.png" alt="">
+                        <span>个人洗护</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-6-w.png" alt="">
+                        <span>服饰鞋靴</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-7-w.png" alt="">
+                        <span>户外运动</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-8-w.png" alt="">
+                        <span>手表配饰</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-9-w.png" alt="">
+                        <span>轻奢</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-10-w.png" alt="">
+                        <span>家居生活</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="all-classify nav">
+                        <img src="./img/header-footer/nav-11-w.png" alt="">
+                        <span>环球美食</span>
+                        <i class="glyphicon glyphicon-menu-right"></i>
+                        <!--隐藏的具体分类-->
+                        <div class="detail-list">
+                            <div class="detail clearfix">
+                                <div class="pull-left clearfix">
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">面膜</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">彩妆</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">防晒修复</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                            <a href="">洁面</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                    <div class="part pull-left">
+                                        <div class="title">
+                                            <a href="">护肤</a>
+                                        </div>
+                                        <div class="content">
+                                            <a href="">洁面</a>
+                                            <a href="" class="active">卸妆水</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">面霜</a>
+                                            <a href="" class="active">眼部护理</a>
+                                            <a href="">精华/乳液</a>
+                                            <a href="">爽肤水</a>
+                                            <a href="">手足护理</a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="pull-right img-box">
+                                    <a href=""><img src="./img/header-footer/detail-11.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-12.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-13.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-14.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-15.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-16.jpg" alt=""></a>
+                                    <a href=""><img src="./img/header-footer/detail-17.jpg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <!--右边-横的-导航栏-->
+            <div class="pull-left">
+                <ul class="nav nav-pills">
+                    <li role="presentation"><a href="#">首页</a></li>
+                    <li role="presentation" class="active"><a href="#">今日限时购</a></li>
+                    <li role="presentation"><a href="#">每日上新</a></li>
+                    <li role="presentation"><a href="#">国家馆</a></li>
+                    <li role="presentation"><a href="#">海外旗舰店</a></li>
+                    <li role="presentation"><a href="#">工厂店</a></li>
+                    <li role="presentation"><a href="#">品质奶粉</a></li>
+                    <li role="presentation"><a href="#">人气面膜</a></li>
+                    <li role="presentation"><a href="#">礼品卡</a></li>
+                </ul>
+            </div>
+            <!--右浮动导航-->
+            <ul class="right-fixed-guide right-fixed-guide3">
+                <li class="relative">
+                    <a href="">
+                        <img src="./img/header-footer/fixed-icon1-w.png" alt="" class="img">
+                        <span>签到</span>
+                    </a>
+                    <div class="everyDay">
+                        <a href="">
+                            <span>每日签到</span>
+                            <span>赢考拉豆</span>
+                        </a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/header-footer/fixed-icon2-w.png" alt="" class="img">
+                        <span>购物车</span>
+                    </a>
+                </li>
+                <li class="relative">
+                    <a href="">
+                        <img src="./img/header-footer/fixed-icon3-w.png" alt="" class="img">
+                        <span>App</span>
+                    </a>
+                    <div class="inside-qr">
+                        <a href=""><img src="./img/header-footer/fixed-qr.png" alt=""></a>
+                    </div>
+                </li>
+                <li>
+                    <a href="">
+                        <img src="./img/header-footer/fixed-icon4-w.png" alt="" class="img">
+                        <span>Top</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+</div>
+<!-----------------------------------------正文部分------------------------------->
+<div class="m-header">
+    <div class="container">
+        <a class="link" href="" target="_blank">
+            <i class="glyphicon glyphicon-time icon"></i>
+            <span class="bigText">今日限时购</span>
+        </a>
+        <b class="smallText">本场还剩</b>
+        <span class="bigText" id="time">01:37:12</span>
+    </div>
+</div>
+<div class="m-nav ">
+    <div class="container">
+        <div id="tabNav" class="m-nav clearfix">
+            <div id="tabWrap" class="tabWrap clearfix">
+                <a class="tab f-started" href="#">
+                    <b class="time">00:00</b>
+                    <b class="status">已开抢</b>
+                </a>
+                <a class="tab f-started" href="#">
+                    <b class="time">08:00</b>
+                    <b class="status">已开抢</b>
+                </a>
+                <a class="tab f-ing f-select" href="javascript:;">
+                    <b class="time">10:00<i>抢购中</i></b>
+                </a>
+                <a class="tab f-soon" href="javascript:;">
+                    <b class="time">12:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+                <a class="tab f-soon" href="javascript:;">
+                    <b class="time">14:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+                <a class="tab f-soon" href="javascript:;">
+                    <b class="time">16:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+                <a class="tab f-soon" href="javascript:;">
+                    <b class="time">20:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+                <a class="tab f-soon" href="javascript:;">
+                    <b class="time">22:00</b>
+                    <b class="status">即将开始</b>
+                </a>
+                <a class="tab f-tomorrow" href="javascript:;">
+                    <b class="time"><i class="iconfont glyphicon glyphicon-calendar"></i>明日预告</b>
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="m-goodslist">
+    <div class="container lineOfFour">
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-1.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-2.jpg" alt="" class="proImg">
+                <span class="label-lb">3.9折</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Bellroy Note Sleeve头层牛皮夹 超薄短钱包</a>
+                    <a class="titLink intro" href="">丢掉累赘，轻薄简约</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">345</b>
+                    <span class="box-marketprice"><del class="marketprice">¥890</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-3.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">crobe 四季型抱婴腰凳婴儿背带Selpy 粉红色</a>
+                    <a class="titLink intro" href="">用爱拥抱孩子</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">399</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1099</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-4.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">MICHAEL KORS|迈克高仕 Selma系列 女士皮革笑脸单肩斜挎包 中号-Metalic Grey</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">745</b>
+                    <span class="box-marketprice"><del class="marketprice">¥2199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-5.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Swisse 麦卢卡蜂蜜胶原蛋白口服精华果冻 15g*10条/盒</a>
+                    <a class="titLink intro" href="">一口吃出水嫩嘭弹肌</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">99</b>
+                    <span class="box-marketprice"><del class="marketprice">¥259</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-6.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-7.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 Oversize极简羊毛大衣</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">788</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1599</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-8.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 婴儿羊毛背带裤66-80厘米</a>
+                    <a class="titLink intro" href="">澳洲美丽诺羊毛，松软舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">148</b>
+                    <span class="box-marketprice"><del class="marketprice">¥299</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-1.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-2.jpg" alt="" class="proImg">
+                <span class="label-lb">3.9折</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Bellroy Note Sleeve头层牛皮夹 超薄短钱包</a>
+                    <a class="titLink intro" href="">丢掉累赘，轻薄简约</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">345</b>
+                    <span class="box-marketprice"><del class="marketprice">¥890</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-3.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">crobe 四季型抱婴腰凳婴儿背带Selpy 粉红色</a>
+                    <a class="titLink intro" href="">用爱拥抱孩子</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">399</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1099</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-4.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">MICHAEL KORS|迈克高仕 Selma系列 女士皮革笑脸单肩斜挎包 中号-Metalic Grey</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">745</b>
+                    <span class="box-marketprice"><del class="marketprice">¥2199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-5.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Swisse 麦卢卡蜂蜜胶原蛋白口服精华果冻 15g*10条/盒</a>
+                    <a class="titLink intro" href="">一口吃出水嫩嘭弹肌</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">99</b>
+                    <span class="box-marketprice"><del class="marketprice">¥259</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-6.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-7.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 Oversize极简羊毛大衣</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">788</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1599</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-8.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 婴儿羊毛背带裤66-80厘米</a>
+                    <a class="titLink intro" href="">澳洲美丽诺羊毛，松软舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">148</b>
+                    <span class="box-marketprice"><del class="marketprice">¥299</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-1.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-2.jpg" alt="" class="proImg">
+                <span class="label-lb">3.9折</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Bellroy Note Sleeve头层牛皮夹 超薄短钱包</a>
+                    <a class="titLink intro" href="">丢掉累赘，轻薄简约</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">345</b>
+                    <span class="box-marketprice"><del class="marketprice">¥890</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-3.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">crobe 四季型抱婴腰凳婴儿背带Selpy 粉红色</a>
+                    <a class="titLink intro" href="">用爱拥抱孩子</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">399</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1099</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-4.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">MICHAEL KORS|迈克高仕 Selma系列 女士皮革笑脸单肩斜挎包 中号-Metalic Grey</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">745</b>
+                    <span class="box-marketprice"><del class="marketprice">¥2199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-5.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Swisse 麦卢卡蜂蜜胶原蛋白口服精华果冻 15g*10条/盒</a>
+                    <a class="titLink intro" href="">一口吃出水嫩嘭弹肌</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">99</b>
+                    <span class="box-marketprice"><del class="marketprice">¥259</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-6.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-7.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 Oversize极简羊毛大衣</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">788</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1599</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-8.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 婴儿羊毛背带裤66-80厘米</a>
+                    <a class="titLink intro" href="">澳洲美丽诺羊毛，松软舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">148</b>
+                    <span class="box-marketprice"><del class="marketprice">¥299</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-1.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-2.jpg" alt="" class="proImg">
+                <span class="label-lb">3.9折</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Bellroy Note Sleeve头层牛皮夹 超薄短钱包</a>
+                    <a class="titLink intro" href="">丢掉累赘，轻薄简约</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">345</b>
+                    <span class="box-marketprice"><del class="marketprice">¥890</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-3.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">crobe 四季型抱婴腰凳婴儿背带Selpy 粉红色</a>
+                    <a class="titLink intro" href="">用爱拥抱孩子</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">399</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1099</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-4.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">MICHAEL KORS|迈克高仕 Selma系列 女士皮革笑脸单肩斜挎包 中号-Metalic Grey</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">745</b>
+                    <span class="box-marketprice"><del class="marketprice">¥2199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-5.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Swisse 麦卢卡蜂蜜胶原蛋白口服精华果冻 15g*10条/盒</a>
+                    <a class="titLink intro" href="">一口吃出水嫩嘭弹肌</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">99</b>
+                    <span class="box-marketprice"><del class="marketprice">¥259</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-6.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-7.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 Oversize极简羊毛大衣</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">788</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1599</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-8.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 婴儿羊毛背带裤66-80厘米</a>
+                    <a class="titLink intro" href="">澳洲美丽诺羊毛，松软舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">148</b>
+                    <span class="box-marketprice"><del class="marketprice">¥299</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-1.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-2.jpg" alt="" class="proImg">
+                <span class="label-lb">3.9折</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Bellroy Note Sleeve头层牛皮夹 超薄短钱包</a>
+                    <a class="titLink intro" href="">丢掉累赘，轻薄简约</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">345</b>
+                    <span class="box-marketprice"><del class="marketprice">¥890</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-3.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">crobe 四季型抱婴腰凳婴儿背带Selpy 粉红色</a>
+                    <a class="titLink intro" href="">用爱拥抱孩子</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">399</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1099</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-4.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">MICHAEL KORS|迈克高仕 Selma系列 女士皮革笑脸单肩斜挎包 中号-Metalic Grey</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">745</b>
+                    <span class="box-marketprice"><del class="marketprice">¥2199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-5.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">Swisse 麦卢卡蜂蜜胶原蛋白口服精华果冻 15g*10条/盒</a>
+                    <a class="titLink intro" href="">一口吃出水嫩嘭弹肌</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">99</b>
+                    <span class="box-marketprice"><del class="marketprice">¥259</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-6.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">【便携 私人按摩师】BEURER博雅 便携式电动迷你按摩仪 颈部肩部腿部按摩仪MG16 红色</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">88</b>
+                    <span class="box-marketprice"><del class="marketprice">¥199</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-7.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 Oversize极简羊毛大衣</a>
+                    <a class="titLink intro" href="">迷你便携 简单舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">788</b>
+                    <span class="box-marketprice"><del class="marketprice">¥1599</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="detailWrap clearfix">
+            <a href="" class="pic">
+                <img src="./img/activity-flashSale/p1-8.jpg" alt="" class="proImg">
+                <span class="label-lb">包税|券每满200减20</span>
+            </a>
+            <div class="proinfo">
+                <h3 class="tit">
+                    <a class="titLink" href="">考拉工厂店 婴儿羊毛背带裤66-80厘米</a>
+                    <a class="titLink intro" href="">澳洲美丽诺羊毛，松软舒适</a>
+                </h3>
+                <div class="act clearfix">
+                    <span class="yen">¥</span>
+                    <b class="money">148</b>
+                    <span class="box-marketprice"><del class="marketprice">¥299</del></span>
+                    <a class="btn" href="" >去抢购</a>
+                </div>
+                <div class="dlprogress clearfix">
+                    <div class="barWrap"><div class="bar"></div></div>
+                    <div class="remain"><span class="txt-remain">已售51%</span></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------footer-------------------------------->
+<div class="footer">
+    <!--滚动公告-->
+    <div class="notice">
+        <div class="container">
+            <!--滚动公告-->
+            <div class="txtScroll-top">
+                <div class="bd">
+                    <ul class="infoList">
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--正低退邮&#45;&#45;保障-->
+    <div class="container footer-index">
+        <img src="./img/header-footer/footer-index.png" alt="">
+    </div>
+    <!--新手指南-简介-->
+    <div class="guide">
+        <div class="container clearfix">
+            <div class="pull-left left-logo">
+                <a href="" class="big-logo"><img src="./img/header-footer/footer-logo.png" alt=""></a>
+                <div class="small-logo">
+                    <span>关注我们</span>
+                    <img src="./img/header-footer/footer-wb.png" alt="">
+                    <img src="./img/header-footer/footer-wx.png" alt="">
+                    <img src="./img/header-footer/footer-yx.png" alt="">
+                </div>
+            </div>
+            <div class="pull-left guide-list">
+                <dl>
+                    <dt>考拉保障</dt>
+                    <dd><a href="">假一赔十</a></dd>
+                    <dd><a href="">廉政监督</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">购物流程</a></dd>
+                    <dd><a href="">支付方式</a></dd>
+                    <dd><a href="">通关税费</a></dd>
+                    <dd><a href="">常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="">退货政策</a></dd>
+                    <dd><a href="">退货流程</a></dd>
+                    <dd><a href="">退货说明</a></dd>
+                    <dd><a href="">联系客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>物流配送</dt>
+                    <dd><a href="">配送方式</a></dd>
+                    <dd><a href="">配送服务</a></dd>
+                    <dd><a href="">运费标准</a></dd>
+                    <dd><a href="">物流跟踪</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="">联系我们</a></dd>
+                    <dd><a href="">合作招商</a></dd>
+                    <dd><a href="">销售联盟</a></dd>
+                    <dd><a href="">CEO邮箱</a></dd>
+                </dl>
+            </div>
+            <div class="qr pull-left">
+                <img src="./img/header-footer/footer-right-qr.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--底部的information-->
+    <div class="info">
+        <div class="container">
+            <div class="list list-1">
+                <a href="http://ir.netease.com/phoenix.zhtml?c=122303&p=irol-IRHome&no_protofix" target="_blank">About
+                    NetEase</a><span>-</span>
+                <a href="http://gb.corp.163.com/gb/about/overview.html?no_protofix"
+                   target="_blank">公司简介</a><span>-</span>
+                <a href="http://gb.corp.163.com/gb/contactus.html?no_protofix" target="_blank">联系方式</a><span>-</span>
+                <a href="//www.kaola.com/footer/friendlylink.shtml" target="_blank">友情链接</a><span>-</span>
+                <a href="http://hr.163.com/?no_protofix" target="_blank">招聘方式</a><span>-</span>
+                <a href="http://help.163.com/?no_protofix" target="_blank">客服信息</a><span>-</span>
+                <a href="" target="_blank">隐私政策</a><span>-</span>
+                <a href="" target="_blank">网络营销</a><span>-</span>
+                <a href="" target="_blank">网易考拉</a>
+            </div>
+            <div class="list list-2">
+                <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+                <span>增值电信业务经营许可证：浙B2-20160288</span>
+                <a href="//pages.kaola.com/pages/activity/Businessentity.shtml" target="_blank">自营经营者信息</a>
+                <span>（浙）网械平台备字[2018]第00007号</span>
+            </div>
+            <div class="list list-3">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802002216&no_protofix"
+                   target="_blank"><img src="./img/header-footer/footer-info-1.png" alt="">浙公网安备 33010802002216号</a>
+                <span>网易公司版权所有©1997-2019</span>
+                <a href="//haitao.nos.netease.com/d37ac4eb-016f-485b-9577-04ae7e0f4bbd.jpg" target="_blank">互联网药品信息服务资格证书编号（浙）-2017-0027</a>
+                <span>浙ICP备16011229号-6</span>
+            </div>
+            <div class="list list-4">
+                <a href="//credit.szfw.org/CX20170920030507330453.html" target="_blank"><img
+                        src="./img/header-footer/footer-info-2.png" alt=""></a>
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e15040881010058239iy2f000000&ct=df&a=1&pa=20160215"
+                   target="_blank"><img src="./img/header-footer/footer-info-3.png" alt=""></a>
+                <a href="http://idinfo.zjaic.gov.cn/bscx.do?method=lzxx&id=3301083301980000040550&no_protofix"
+                   target="_blank"><img src="./img/header-footer/footer-info-4.gif" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/SuperSlide2.1/jquery.SuperSlide.2.1.3.js"></script>
+<script src="lib/swiper-4.5.0/js/swiper.min.js"></script>
+<script src="js/header-footer.js"></script>
+<script src="./js/href.js"></script>
+<!--本页js-->
+<script src="./js/activity-flashSale.js"></script>
+</body>
+</html>

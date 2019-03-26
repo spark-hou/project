@@ -1,0 +1,1359 @@
+/*public*/
+.guess-like,
+.fool {
+    background-color: white;
+    padding-bottom: 30px;
+}
+
+.bread {
+    border-radius: 0;
+}
+
+.bread .breadcrumb {
+    padding-top: 10px;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+    border-radius: 0;
+    background-color: white;
+}
+
+.bread .breadcrumb a,
+.bread .breadcrumb li {
+    color: #999;
+    font-size: 14px
+}
+
+.bread .breadcrumb > .active {
+    color: #999;
+    font-size: 14px
+}
+
+.bread .container {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #DDDDDD
+}
+
+/*<!--图片标题-->*/
+.PImgBox {
+    width: 402px;
+}
+
+/* 缩略图和原图宽高一样 */
+.PImgBox .thumbnail {
+    width: 402px;
+    height: 402px;
+    border: 1px solid #EEEEEE;
+}
+
+.PImgBox .thumbnail img {
+    display: block;
+}
+
+.PImgBox .origin {
+    width: 402px;
+    height: 402px;
+    border: 1px solid #EEEEEE;
+    position: absolute;
+    background-color: white;
+    z-index: 100;
+}
+
+.PImgBox .origin {
+    left: 410px; /* 原图在缩略图的右边 */
+    top: 0;
+    overflow: hidden; /* 隐藏溢出内容 */
+    display: none;
+}
+
+/* 放大镜框 */
+/* 这里按2.5倍放大，400px/160px=2.5 */
+.PImgBox .magnifier {
+    width: 160px;
+    height: 160px;
+    background: rgba(179, 179, 179, .4); /* 半透明效果 */
+    position: absolute;
+    left: 0;
+    top: 0;
+    display: none;
+}
+
+/*<!--下面图片-->轮播图*/
+.PImgBox .picList .pic {
+    width: 60px;
+    height: 60px;
+}
+
+.PImgBox .picList .pic img {
+    width: 60px;
+    height: 60px;
+    display: block;
+}
+
+.PImgBox .picScroll-left .bd {
+    padding-left: 44px;
+}
+
+.PImgBox .picList {
+    padding: 10px;
+}
+
+.PImgBox .picList > li {
+    width: 66px;
+    height: 64px;
+    border: 1px solid #EEEEEE;
+    margin: 0 7px;
+}
+
+.PImgBox .picList > li.active {
+    border: 1px solid #FF2953;
+}
+
+.PImgBox .picScroll-left .next,
+.PImgBox .picScroll-left .prev {
+    position: absolute;
+    text-decoration: none;
+    width: 35px;
+    top: -1px;
+    height: 66px;
+    line-height: 66px;
+    text-align: center;
+    font-size: 30px;
+    border: 1px solid #EEEEEE;
+    color: #AFA398;
+    z-index: 10;
+    background-color: white;
+}
+
+.PImgBox .picScroll-left .prev {
+    left: 8px;
+}
+
+.PImgBox .picScroll-left .next {
+    right: 13px;
+
+}
+
+.PImgBox .picScroll-left .next:hover,
+.PImgBox .picScroll-left .prev:hover {
+    color: #FF2953;
+    border: 1px solid #FF2953;
+}
+
+.PInfo {
+    width: 658px;
+    margin-left: 28px;
+}
+
+.PInfo .place-contry > img {
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.PInfo .place-contry {
+    font-size: 13px;
+    color: #999;
+    font-weight: 400;
+    vertical-align: middle;
+    padding-bottom: 10px;
+}
+
+.PInfo .place-contry span {
+    display: inline-block;
+    margin-right: 5px;
+}
+
+.PInfo .place-contry a {
+    font-size: 13px;
+    color: #999;
+    font-weight: 400;
+    vertical-align: middle
+}
+
+.PInfo .place-contry .pull-right {
+    display: inline-block;
+    width: 70px;
+    height: 27px;
+}
+
+.PInfo .big-title {
+    display: block;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 26px;
+    color: #333;
+    word-wrap: break-word;
+    padding-bottom: 10px;
+}
+
+.PInfo .detail {
+    display: block;
+    color: #333;
+    line-height: 20px;
+    font-size: 13px;
+    padding-bottom: 10px;
+}
+
+.PInfo .price {
+    padding: 10px 0;
+    background-color: #F9F9F9;
+    border-top: 1px dotted #DDDDDD;
+    border-bottom: 1px dotted #DDDDDD;
+    margin-bottom: 10px;
+}
+
+.PInfo .front {
+    display: inline-block;
+    width: 75px;
+    color: #666;
+    font-size: 12px;
+    margin-left: 5px;
+    line-height: 24px;
+    vertical-align: middle;
+}
+
+.PInfo .price .price-info .red-price {
+    font-size: 26px;
+    color: #e31436;
+    font-weight: bold;
+    line-height: 1;
+}
+
+.PInfo .price .price-info .sale {
+    display: inline-block;
+    margin-left: 5px;
+    background-color: #f68587;
+    height: 18px;
+    line-height: 18px;
+    padding: 0 5px;
+    color: #fff;
+    font-size: 12px;
+    vertical-align: 5px;
+    border-radius: 2px;
+}
+
+.PInfo .price .price-info .consult-1 {
+    vertical-align: 4px;
+    font-size: 12px;
+    color: #999;
+    margin-left: 14px;
+    margin-bottom: 8px;
+    display: inline-block;
+}
+
+.PInfo .price .price-info .black-cat img {
+    width: 45px;
+    height: 17px;
+    display: inline-block;
+}
+
+.PInfo .price .price-info .black-cat span {
+    isplay: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    color: #1e1e1e;
+    line-height: 20px;
+}
+
+.PInfo .price .price-info .black-cat i {
+    color: #FF0000;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    display: inline-block;
+}
+
+.PInfo .price .price-info .black-cat .glyphicon {
+    vertical-align: middle;
+    color: #979797;
+    width: 13px;
+    margin-left: 7px;
+    font-size: 13px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+.PInfo .price .price-info .card {
+    color: #737373;
+    display: block;
+    vertical-align: middle;
+    font-size: 12px;
+    line-height: 20px;
+    margin-left: 47px;
+}
+
+.PInfo .price .price-info .card2 {
+    display: inline-block;
+    margin-left: 10px;
+}
+
+.PInfo .carry {
+    padding-bottom: 10px;
+}
+
+.PInfo .carry i {
+    line-height: 24px;
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 12px;
+    font-style: normal;
+    padding-top: 5px;
+
+}
+
+.PInfo .carry span:first-child {
+    padding-top: 8px;
+}
+
+/*省市区三级联动*/
+.pick-area {
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.pick-area .a {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.pick-area .a a {
+    float: left;
+    margin: 10px;
+}
+
+.pick-area .a input {
+    float: left;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    outline-color: gold;
+}
+
+.pick-area .blank {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: cyan;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
+
+.pick-area .blank2 {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: lightpink;
+    border-top: 1px solid #333;
+    padding-top: 50px;
+}
+
+.pick-area .box {
+    width: 100%;
+    overflow: hidden;
+    background: lightgreen;
+}
+
+/*//sever*/
+.PInfoWrap .PInfo .sever {
+    padding-bottom: 10px;
+}
+
+.PInfoWrap .PInfo .sever .place {
+    color: #333;
+    font-size: 12px;
+    line-height: 24px;
+}
+
+.PInfoWrap .PInfo .sever .place .img-box {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.PInfoWrap .PInfo .sever .place .img-box > img {
+    width: 28px;
+    height: 28px;
+    display: inline-block;
+}
+
+.PInfoWrap .PInfo .sever .place .from span {
+    vertical-align: middle;
+    display: inline-block;
+    text-align: center;
+    font-size: 12px;
+    padding-right: 20px;
+}
+
+.PInfoWrap .PInfo .sever .place .from span:nth-of-type(2) {
+    padding-left: 8px;
+}
+
+.PInfoWrap .PInfo .sever .place .from span:nth-of-type(3) {
+    padding-left: 12px;
+}
+
+.PInfoWrap .PInfo .sever .place .time {
+    font-size: 12px;
+}
+
+.PInfoWrap .PInfo .sever .place .time > span {
+    font-weight: bold;
+    font-size: 12px;
+    color: #333;
+}
+
+.PInfoWrap .PInfo .num {
+    padding-bottom: 10px;
+}
+
+.PInfoWrap .PInfo .num button {
+    color: #333;
+    background-color: white;
+    cursor: default;
+    border: 1px solid #ccc;
+    display: inline-block;
+    width: 22px;
+    height: 22px;
+    font-size: 17px;
+    text-align: center;
+    line-height: 22px;
+    padding: 0;
+    vertical-align: middle;
+}
+.PInfoWrap .PInfo .num button .dis{
+    cursor: not-allowed;
+    color: #bcbcbc;
+    border-color: #bcbcbc;
+}
+.PInfoWrap .PInfo .num input {
+    width: 38px;
+    padding: 4px 5px;
+    margin: 0;
+    line-height: 1;
+    height: 12px;
+    font-size: 14px;
+    text-align: center;
+    color: #333;
+    outline: none;
+    border: 1px solid #ccc;
+    box-sizing: content-box;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+/*.PInfoWrap .PInfo .explain .front{*/
+/*width: 45px;*/
+/*}*/
+.PInfoWrap .PInfo .explain {
+    padding-bottom: 20px;
+}
+
+.PInfoWrap .PInfo .explain .tit {
+    background: #fff;
+    position: relative;
+    padding: 5px 27px 5px 10px;
+    height: 22px;
+    line-height: 22px;
+    max-width: 230px;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    z-index: 2;
+    font-size: 12px;
+}
+
+.PInfoWrap .PInfo .last {
+    padding-bottom: 20px;
+}
+
+.PInfoWrap .PInfo .last .link {
+    padding-left: 19px;
+    line-height: 18px;
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    font-size: 12px;
+}
+
+.PInfoWrap .PInfo .buy-now {
+    width: 156px;
+    height: 46px;
+    border: 2px solid #d41c44;
+    background-color: #ffeced;
+    color: #d31b44;
+    line-height: 46px;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.PInfoWrap .PInfo .shop-car {
+    width: 180px;
+    height: 47px;
+    line-height: 50px;
+    color: #fff;
+    background-color: #e31436;
+    display: inline-block;
+    margin-right: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    text-decoration: none;
+    vertical-align: middle;
+}
+
+.PInfoWrap .PInfo .collection {
+    font-size: 14px;
+    color: #6f6f6f;
+    font-weight: normal;
+    line-height: 28px;
+}
+
+.PInfoWrap .PInfo .collection .glyphicon-heart {
+    color: #e31436;
+    display: inline-block;
+    margin-right: 5px;
+}
+
+/*<!--优惠套餐，相关推荐-->*/
+.fool-2 .guide li {
+    float: left;
+    color: #000;
+    outline: none;
+    display: inline-block;
+    width: 110px;
+    height: 52px;
+    line-height: 52px;
+    margin-right: 10px;
+    font-weight: bold;
+    text-align: center;
+    font-size: 16px;
+    border-bottom: 1px solid #eaeaea;
+
+}
+
+.fool-2 .guide li.active {
+    color: #e31436;
+    border-bottom: 2px solid #e31436;
+}
+
+.fool-2 .group {
+    margin-top: -1px;
+    border: 1px solid #eaeaea;
+    padding: 20px 0 15px 30px;
+    font-size: 14px
+}
+
+.fool-2 .group .combolist {
+    float: left;
+    border-right: 1px solid #eaeaea;
+    display: inline-block;
+    margin-right: 38px;
+    padding: 0;
+    font-size: 14px;
+}
+
+.fool-2 .group .combolist .title {
+    height: 12px;
+    line-height: 12px;
+    margin: 2px 0 2px -12px;
+    width: 858px;
+    zoom: 1;
+}
+
+.fool-2 .group .combolist .title li {
+    float: left;
+    border-left: 1px solid #999;
+}
+
+.fool-2 .group .combolist .title li:first-child {
+    border: none;
+}
+
+.fool-2 .group .combolist .title li a {
+    display: block;
+    padding: 0px 12px;
+    text-decoration: none;
+    cursor: pointer;
+    color: #151515;
+    height: 11px;
+}
+
+.fool-2 .group .combolist .title li a.active {
+    color: #e31436;
+}
+
+.fool-2 .group .combolist .prdlist {
+    width: 846px;
+    overflow: hidden;
+    height: 166px;
+}
+
+.fool-2 .group .combolist .prdlist li {
+    width: 138px;
+    float: left;
+    margin-right: 30px;
+}
+
+.fool-2 .group .combolist .prdlist li img {
+    padding-top: 10px;
+    width: 110px;
+    height: 110px;
+    display: block;
+}
+
+.fool-2 .group .combolist .prdlist li a {
+    display: block;
+    color: #333;
+    line-height: 17px;
+    cursor: pointer;
+    font-size: 12px;
+    overflow: hidden;
+    height: 36px;
+}
+
+.fool-2 .group .combolist .glyphicon-plus {
+    position: absolute;
+    top: 78px;
+    left: 140px;
+    color: grey;
+}
+
+.fool-2 .group .n-pricebox {
+    float: left;
+    max-width: 160px;
+    margin: 0;
+    padding: 0;
+    font-size: 14px
+}
+
+.fool-2 .group .n-pricebox .part1 {
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #333;
+    font-weight: bold;
+    margin-top: 8px;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+
+.fool-2 .group .n-pricebox .comboprice {
+    color: #e31436;
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+.fool-2 .group .n-pricebox .curprice {
+    font-size: 12px;
+    color: #2a2a2a;
+    height: 20px;
+    line-height: 20px;
+}
+
+.fool-2 .group .n-pricebox .buy-now {
+    display: block;
+    border: 1px solid #d41c44;
+    color: #d31b44;
+    margin-top: 30px;
+    background: #ffeced;
+    text-align: center;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    text-decoration: none;
+}
+
+.fool-2 .group .n-pricebox .shop-car {
+    display: block;
+    text-align: center;
+    width: 90px;
+    height: 28px;
+    line-height: 28px;
+    border: 1px solid #e31436;
+    font-size: 12px;
+    margin-top: 10px;
+    color: #fff;
+    background: #e31436;
+    text-decoration: none;
+}
+
+.fool-2 .newRecomWrap {
+    margin-top: -1px;
+    border: 1px solid #eaeaea;
+    padding: 12px 0 10px 30px;
+    font-size: 14px;
+    display: none;
+}
+
+.fool-2 .newRecomWrap .m-reclst {
+    margin-left: 0px;
+}
+
+.fool-2 .newRecomWrap .m-reclst li {
+    margin: 0 38px 0 0px;
+    height: 195px;
+    width: 138px;
+    border: none;
+    float: left;
+}
+
+.fool-2 .newRecomWrap .m-reclst li img {
+    width: 110px;
+    height: 110px;
+    display: block;
+    margin: 0 auto;
+}
+
+.fool-2 .newRecomWrap .m-reclst li .title {
+    padding: 0px;
+    margin-bottom: 9px;
+    height: 40px;
+    overflow: hidden;
+    line-height: 20px;
+    font-size: 12px;
+    color: #333;
+    font-weight: normal;
+    word-break: break-all;
+    outline: none;
+    display: inline-block;
+}
+
+.fool-2 .newRecomWrap .m-reclst li p {
+    line-height: 14px;
+    color: #e31436;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.fool-2 .newRecomWrap .m-reclst li del {
+    padding-left: 5px;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    display: inline-block;
+}
+
+.fool-2 .newRecomWrap .m-reclst li .comment {
+    display: block;
+    height: 24px;
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+/*<!--图片详情。评论-->*/
+.fool-3 .siderBox {
+    width: 180px;
+    position: relative;
+    margin-right: 20px;
+}
+
+.fool-3 .siderBox .sideGrayBox {
+    margin-bottom: 15px;
+    border: #eaeaea 1px solid;
+}
+
+.fool-3 .siderBox .sideGrayBox > p {
+    font-weight: bold;
+    color: #333;
+    font-size: 16px;
+    padding: 8px 10px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.fool-3 .siderBox .sideGrayBox li {
+    position: relative;
+    margin: 0 10px;
+    padding: 10px 0 16px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.fool-3 .siderBox .sideGrayBox li img {
+    width: 158px;
+    height: 158px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.fool-3 .siderBox .sideGrayBox li .title {
+    padding: 0 5px;
+    height: 40px;
+    font-size: 12px;
+    line-height: 20px;
+    word-break: initial;
+    width: auto;
+    margin: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.fool-3 .siderBox .sideGrayBox li p {
+    line-height: 14px;
+    color: #e31436;
+    font-size: 16px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.fool-3 .siderBox .sideGrayBox li p del {
+    padding-left: 5px;
+    color: #999;
+    font-size: 12px;
+    font-weight: normal;
+    line-height: 14px;
+    display: inline-block;
+}
+
+.fool-3 .siderBox .sideGrayBox li .comment {
+    display: block;
+    height: 24px;
+    line-height: 20px;
+    color: #999;
+    font-size: 12px;
+}
+
+/*<!--右边详情，评论-->*/
+.fool-3 .detail-comment {
+    width: 890px;
+    position: relative;
+    zoom: 1;
+    float: left;
+    padding-top: 50px;
+}
+
+.fool-3 .detail-comment .p-nav {
+    top: 0;
+    position: absolute;
+    width: 888px;
+    height: 48px;
+    border: 1px solid #eaeaea;
+    background-color: #f8f8f8;
+}
+
+.fool-3 .detail-comment .p-navtab {
+    color: #333;
+    font-weight: bold;
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid #eaeaea;
+    width: 159px;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: top;
+
+
+}
+
+.fool-3 .detail-comment .j-userratingTab {
+    position: relative;
+    display: inline-block;
+    border-right: 1px solid #eaeaea;
+    width: 159px;
+    color: #333;
+    text-align: center;
+    height: 48px;
+    line-height: 48px;
+    font-size: 16px;
+    cursor: pointer;
+    vertical-align: top;
+}
+
+.fool-3 .detail-comment .j-userratingTab i {
+    color: #d41c44;
+    font-style: normal;
+}
+
+.fool-3 .detail-comment .p-nav .active {
+    color: #d41c44;
+    border-top: red 2px solid;
+    background-color: #fff;
+}
+
+.fool-3 .detail-comment .p-nav .m-buy {
+    position: relative;
+    top: 0;
+    right: 0;
+    float: right;
+    width: 138px;
+    line-height: 50px;
+    cursor: pointer;
+    z-index: 9999;
+    text-align: center;
+}
+
+.fool-3 .detail-comment .p-nav .add {
+    background-color: #f5345e;
+    color: #fff;
+    text-decoration: none;
+    float: right;
+    width: 120px;
+    height: 36px;
+    line-height: 36px;
+    margin-right: 10px;
+    margin-top: 5px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    display: none;
+}
+
+.fool-3 .detail-comment .p-nav .m-buy.active2 {
+    color: red;
+    background-color: white;
+    border: 1px solid #eaeaea;
+    padding-bottom: 5px;
+}
+
+.fool-3 .detail-comment .p-nav .m-buy img {
+    display: none;
+    margin: 0 auto;
+}
+
+.fool-3 .detail-comment .goodsDetail ul {
+    height: 62px;
+    padding: 15px 0 0 20px;
+    overflow: hidden;
+    position: relative;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    font-size: 14px;
+
+}
+
+.fool-3 .detail-comment .goodsDetail > ul > li {
+    float: left;
+    width: 30%;
+    height: 24px;
+    line-height: 18px;
+    font-size: 12px;
+    color: #333;
+    padding: 5px 0 0 0;
+    margin-right: 3%;
+    overflow: hidden;
+}
+
+.fool-3 .detail-comment .goodsDetail .show {
+    line-height: 22px;
+    padding: 20px;
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    font-size: 12px;
+    margin: 0;
+    text-decoration: none;
+    cursor: pointer;
+    color: #51b8f1;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-faketips {
+    overflow: hidden;
+    border: 1px solid #eaeaea;
+    padding: 15px 20px;
+    font-size: 14px;
+    margin-top: -1px;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-faketips .real {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    margin-right: 15px;
+    border-radius: 20px;
+    background: #e31436;
+    color: #fff;
+    font-size: 24px;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-faketips .cont {
+    margin-right: 70px;
+    width: 700px;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-faketips .cont .title {
+    padding-bottom: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-faketips .cont .info {
+    color: #333;
+    font-size: 13px;
+    line-height: 19px;
+    margin: 0;
+    padding: 0;
+}
+
+.fool-3 .detail-comment .goodsDetail .my-area {
+    border-left: 1px solid #eaeaea;
+    border-right: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+    padding-top: 30px;
+    padding-bottom: 25px;
+    text-align: center;
+}
+
+.fool-3 .detail-comment .goodsDetail .my-area .img-box {
+    width: 710px;
+    margin: 0 auto;
+    text-align: initial;
+}
+
+.fool-3 .detail-comment .goodsDetail .my-area .img-box p {
+    margin: 0;
+}
+
+.fool-3 .detail-comment .goodsDetail .my-area .img-box img {
+    width: auto;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-priceintro {
+    margin: 15px 0 0;
+    padding: 15px 30px;
+    border: 1px solid #eaeaea;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-priceintro .title {
+    color: #000;
+    font-weight: bold;
+    font-size: 100%;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-priceintro ol {
+    margin: 0;
+    padding: 0;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-priceintro li {
+    line-height: 23px;
+    color: #666;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-customertips {
+    margin-top: -1px;
+    padding: 20px 30px 30px 30px;
+    border: 1px solid #eaeaea;
+    font-size: 14px;
+    color: #666;
+    line-height: 23px;
+    background-color: #f6f6f6;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-customertips > b {
+    font-weight: bold;
+    color: #333;
+    font-size: 100%;
+    font-style: normal;
+}
+
+.fool-3 .detail-comment .goodsDetail .m-customertips .helpRightBox {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: #666;
+    line-height: 23px;
+}
+
+.fool-3 .detail-comment .userrating {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo {
+    border: 1px solid #eaeaea;
+    font-size: 0;
+    margin-top: 15px;
+    display: block;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .left {
+    position: relative;
+    padding: 5px 25px 10px 30px;
+    width: 613px;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .left .m-rateinfo {
+    height: 20px;
+    line-height: 20px;
+    font-size: 12px;
+    padding: 15px 0;
+    margin: auto 0;
+    display: inline-block;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .left .m-rateinfo > i {
+    color: #d61640;
+    font-size: 14px;
+    display: inline-block;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .left .goodpercent {
+    display: inline-block;
+    font-size: 13px;
+    height: 20px;
+    color: #d61640;
+    line-height: 20px;
+    margin-left: 10px;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .left .goodpercent i {
+    font-size: 22px;
+    font-weight: bold;
+    font-style: normal;
+    color: #d61640;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .right {
+    position: relative;
+    display: inline-block;
+    vertical-align: middle;
+    width: 186px;
+    margin: 20px 0 20px -1px;
+    padding-left: 33px;
+    border-left: 1px solid #eaeaea;
+    z-index: 1;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .right .givenbean {
+    padding-bottom: 7px;
+    margin: 0;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .right .givenbean > p {
+    font-size: 13px;
+    line-height: 17px;
+    margin: 0;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .right a {
+    padding-right: 7px;
+    font-size: 13px;
+    display: inline-block;
+}
+
+.fool-3 .detail-comment .userrating .commentinfo .right > span {
+    color: #ccc;
+    display: inline;
+    font-size: 13px;
+    line-height: 17px;
+    padding-right: 5px;
+}
+
+/*评论第二层*/
+.fool-3 .detail-comment .userrating .rate {
+    height: 48px;
+    overflow: hidden;
+    background-color: #f8f8f8;
+    padding: 0;
+    border: 1px solid #eaeaea;
+    margin-bottom: 0;
+    color: #666;
+}
+
+.fool-3 .detail-comment .userrating .rate .j-tab {
+    padding: 0;
+    height: 18px;
+    float: left;
+    margin: 14px 0 0 25px;
+    text-align: center;
+    overflow: hidden;
+    cursor: pointer;
+    color: #333;
+    position: relative;
+    z-index: 1;
+}
+
+.fool-3 .detail-comment .userrating .rate .j-tab > a {
+    color: #666;
+    vertical-align: -2px;
+    margin-right: 5px;
+    display: inline-block;
+    width: 14px;
+    height: 14px;
+    text-decoration: none;
+    outline: none;
+    z-index: 99;
+    background: url("../img/product/radio.png") no-repeat 0 0;
+}
+
+.fool-3 .detail-comment .userrating .rate .j-tab.active {
+    color: #d31b44;
+    font-weight: bold;
+}
+
+.fool-3 .detail-comment .userrating .rate .j-tab.active > a {
+    background: url("../img/product/radio.png") no-repeat 0 -14px;
+}
+
+.fool-3 .detail-comment .userrating .rate .last {
+    margin-right: 28px;
+    text-align: right;
+    float: right;
+    margin: 14px 0 0 25px;
+    background: none;
+    padding: 0;
+    height: 18px;
+    cursor: pointer;
+}
+
+.fool-3 .detail-comment .userrating .rate .last span {
+    color: #999999;
+}
+
+.fool-3 .detail-comment .userrating .rate .last .see-all {
+    display: inline-block;
+    color: #51b8f1;
+    padding: 0 20px 0 17px;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap {
+    border: #e8e8e8 solid 1px;
+    border-bottom: none;
+    border-top: none;
+    font-size: 13px;
+}
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo{
+    padding: 20px 0;
+    position: relative;
+    border-bottom: 1px solid #e8e8e8;
+}
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .head {
+    width: 88px;
+    text-align: center;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .head img {
+    margin: 6px auto 5px auto;
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    display: block;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commItem {
+    width: 600px;
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commItem .star {
+    display: inline-block;
+    height: 18px;
+    letter-spacing: 1px;
+    white-space: nowrap;
+    line-height: 18px;
+    color: #d61640;
+    font-size: 12px;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commItem .itemDetail {
+    color: #333;
+    padding-left: 0;
+    overflow: hidden;
+    display: block;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commItem .itemDetail label {
+    display: inline-block;
+    margin-right: 9px;
+    background: #e31436;
+    color: #fff;
+    padding: 0px 6px;
+    line-height: 18px;
+    font-size: 12px;
+    margin-right: 5px;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commItem .img img {
+    width: 36px;
+    height: 36px;
+    vertical-align: middle;
+}
+
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commopts {
+    width: 130px;
+    margin: 0;
+    font-size: 12px;
+    color: #999;
+}
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commopts .thumbup {
+    width: 50px;
+    height: 20px;
+    text-align: center;
+    border: 1px solid #ccc;
+    margin: 18px 0 7px 2px;
+    -webkit-border-radius: 2px;
+    border-radius: 2px;
+    font-size: 12px;
+    color: #999;
+    line-height: 20px;
+    cursor: pointer;
+}
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commopts a{
+    font-size: 12px;
+    color: #999;
+    margin-left: -1px;
+}
+.fool-3 .detail-comment .userrating .j-commwrap .commWrap .eachInfo .commopts .time{
+
+    color: #999;
+    font-size: 12px;
+}
+.fool-3 .detail-comment .userrating .j-commwrap .pageNavWrap {
+text-align: center;
+}
+.pagination>li>a, .pagination>li>span {
+    position: relative;
+    float: left;
+    padding: 6px 12px;
+    margin-left: -1px;
+    line-height: 1.42857143;
+    color: #e31436;
+    text-decoration: none;
+    background-color: #fff;
+    border: 1px solid #ddd;
+}
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background: #e31436;
+    border-color: white;
+}
+
+
+
+

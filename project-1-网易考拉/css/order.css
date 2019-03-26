@@ -1,0 +1,547 @@
+.guess-like {
+    background-color: white;
+}
+
+i {
+    font-style: normal;
+}
+p{
+    margin: 0;
+}
+b {
+    font-style: normal;
+}
+em{
+    font-style: normal;
+}
+
+.fool-1 {
+    padding-bottom: 15px;
+}
+
+.city-select-tab > a.active {
+    color: red;
+}
+
+.city-select a.active {
+    background-color: red;
+}
+
+.city-picker-span,
+.city-picker-span.focus,
+.city-picker-span.open {
+    border-bottom: none;
+    overflow: hidden;
+}
+
+.u-mntlt {
+    display: block;
+    border-bottom: 1px solid #ddd;
+    padding: 0 0 5px 5px;
+    margin: 10px 0 5px;
+    font-size: 16px;
+    color: #333;
+    background: none;
+    height: 24px;
+    line-height: 24px;
+}
+
+.fool-2 {
+    /*display: none;*/
+}
+
+.fool-2 .m-myaddress {
+    width: 615px;
+    margin-bottom: 35px;
+    font-size: 12px;
+}
+
+.fool-2 .m-myaddress .item {
+    padding: 15px 0 0;
+}
+
+.fool-2 .m-myaddress .item .item-label i {
+    line-height: 20px;
+    color: #d12147;
+    font-style: normal;
+    vertical-align: middle;
+}
+
+.fool-2 .m-myaddress .item-label {
+    float: left;
+    line-height: 36px;
+    width: 80px;
+    margin-right: 20px;
+    text-align: right;
+    color: #333;
+    vertical-align: middle;
+    display: inline-block;
+}
+
+.fool-2 .item-1 .relative {
+    display: inline-block;
+    vertical-align: middle;
+    border: 1px solid #CCCCCC;
+    padding: 5px 10px;
+    width: 325px;
+}
+
+.fool-2 .item-1 .relative input {
+    overflow: hidden;
+    width: 300px;
+!important;
+}
+
+.fool-2 .item-2 textarea {
+    margin-top: 5px;
+    padding: 7px 10px;
+    border: 1px solid #ddd;
+    color: #333;
+    overflow: auto;
+    font-size: 100%;
+    float: left;
+    width: 438px;
+    height: 50px;
+    resize: none;
+}
+
+.fool-2 .item .item-input {
+    float: left;
+    width: 438px;
+    height: 36px;
+    line-height: 20px;
+    padding: 7px 10px;
+    margin: 0px 5px 0 0px;
+    border: 1px solid #ddd;
+    color: #333;
+    overflow: auto;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.fool-2 .item-5 .i1 {
+    width: 90px;
+}
+
+.fool-2 .item-5 .i2 {
+    width: 194px;
+}
+
+.fool-2 .item-5 .i3 {
+    width: 129px;
+}
+
+.fool-2 .item-5 i {
+    display: inline-block;
+    font-style: normal;
+    float: left;
+    vertical-align: middle;
+    margin-top: 9px;
+    margin-right: 3px;
+}
+
+.fool-2 .item-bottom {
+    margin-left: 105px;
+    position: relative;
+    z-index: 1;
+}
+
+.fool-2 .item-bottom .item-submit {
+    color: #fff;
+    border: 1px solid #e31346;
+    background-color: #e31346;
+    width: 130px;
+    height: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 14px;
+    cursor: pointer;
+}
+.fool-2 .item-bottom .item-submit.changePlace{
+    display: none;
+}
+
+.fool-3 .addNewAddr {
+    display: inline-block !important;
+    height: 26px;
+    line-height: 26px;
+    padding: 0 5px;
+    color: #333;
+    text-align: center;
+    border: 1px solid #999;
+    width: 120px;
+    font-size: 14px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+}
+
+.fool-3 .addNewAddr:hover {
+    border: 1px solid red;
+    color: red;
+}
+
+.fool-3 .content {
+    float: left;
+    width: 342px;
+    padding: 0 20px;
+    border: 1px solid #EEEEEE;
+    font-size: 12px;
+    position: relative;
+    height: 154px;
+    margin: 0 10px 16px 10px;
+}
+
+
+.fool-3 .content.active{
+    border: 2px solid #e31436;
+    background: #fffbee url("../img/order/right.png") no-repeat 308px 124px;!important;
+}
+.fool-3 .content1{
+    display: none;
+}
+.fool-3 .content .title {
+    display: inline-block;
+    margin: 0 auto;
+    width: 300px;
+    text-align: left;
+    padding-top: 3px;
+    word-break: break-all;
+    height: 35px;
+    line-height: 35px;
+    border-bottom: 1px solid #eee;
+    font-weight: 700;
+}
+
+.fool-3 .content .title span {
+    font-size: 14px;
+}
+
+.fool-3 .content .title b {
+    float: right;
+    display: none;
+    font-style: normal;
+    color: #666
+}
+
+.fool-3 .content .place span,
+.fool-3 .content .place i,
+.fool-3 .content .place b {
+    display: block;
+    padding: 5px 0;
+}
+
+.fool-3 .content .opspan {
+    position: absolute;
+    bottom: 7px;
+    left: 0;
+    display: none;
+}
+.fool-3 .content .opspan a{
+    color: #666;
+    display: inline-block;
+    margin-left: 30px;
+}
+.fool-3 .content .default{
+    position: absolute;
+    top: 12px;
+    right: 20px;
+    color: #d12147;
+    display: none;
+    cursor: pointer;
+}
+.fool-4 .thead{
+    margin: 0 20px;
+}
+.col{
+    float: left;
+    text-align: center;
+    height: 33px;
+    line-height: 33px;
+    color: #999;
+    font-size: 12px;
+}
+.col1{
+    width: 50.4%;
+    text-align: left;
+}
+.col2,
+.col3,
+.col4{
+    width: 12.4%;
+}
+.col5{
+    text-align: right;
+    width: 9.9%;
+    padding-right: 2.5%;
+}
+
+.fool-4 .m-warebox{
+    border: 1px solid #e8e8e8;
+    margin-bottom: 20px;
+}
+.fool-4 .m-warebox .region{
+    height: 35px;
+    line-height: 35px;
+    border-top: 1px solid #eaeaea;
+    font-size: 14px;
+    padding: 0 20px;
+    background-color: #f3f3f3;
+}
+.fool-4 .m-warebox .region .regionname{
+    font-weight: 700;
+    font-size: 14px;
+}
+.fool-4 .m-warebox .packinfo{
+    padding: 10px 20px;
+    height: 40px;
+    line-height: 20px;
+    border-bottom: 1px solid #eaeaea;
+    border-top: 1px solid #eaeaea;
+}
+.fool-4 .m-warebox .packinfo i{
+    color: #cbccce;
+    margin-right: 5px;
+    font-size: 12px;
+}
+.fool-4 .m-warebox .packinfo em{
+    font-weight: 500;
+}
+.fool-4 .m-warebox .m-goodstbl .tbody{
+    font-size: 14px;
+    margin: 0 20px;
+}
+.fool-4 .m-warebox .m-goodstbl .goodsitm {
+    min-height: 70px;
+    font-size: 12px;
+}
+.m-goodstbl .tbody .col {
+    padding: 14px 0 7px}
+.m-goodstbl .goodsitm .imgwrap {
+    width: 40px;
+    height: 40px;
+    overflow: hidden;
+}
+.m-goodstbl .goodsitm .ttwrap .f-vama span{
+    float: left;
+    margin-left: 10px;
+    color: #666;
+    width: 277px;
+    padding-right: 60px;
+    max-width: 280px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+}
+.m-goodstbl .goodsitm .ttwrap>p{
+    line-height: 16px;
+}
+.m-goodstbl .goodsitm .returninfo{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    word-wrap: normal;
+    white-space: nowrap;
+    padding-top: 2px;
+}
+.m-goodstbl .goodsitm .returninfo .m-label-box {
+    padding-right: 5px;
+}
+.m-goodstbl .goodsitm .returninfo .m-label-box span {
+    vertical-align: middle;
+    color: #666;
+}
+.m-goodstbl .goodsitm .returninfo .m-label-box img {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+.m-goodstbl .goodsitm .col2,
+.m-goodstbl .goodsitm .col3,
+.m-goodstbl .goodsitm .col4,
+.m-goodstbl .goodsitm .col5{
+    color: #333;
+}
+.m-goodstbl .goodsitm .col3 p{
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 23px;
+}
+.actLabel {
+    margin-top: 2px;
+    display: inline-block;
+    width: 55px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    font-size: 12px;
+    color: #fc635f;
+    vertical-align: top;
+    background: #fff url(../img/order/border.png) no-repeat 0 0;
+}
+.m-goodstbl .goodsitm .amount {
+    font-weight: 700;
+    font-size: 14px;
+}
+.infobox{
+    color: #333;
+}
+.infobox .cell{
+    margin-bottom: 20px;
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #e8e8e8;
+}
+.infobox .cell .cellBody{
+    padding: 10px 26px;
+}
+.infobox .cell .cellBody .couponGroup{
+    padding: 7px 12px 7px 0;
+    position: relative;
+    margin-top: 10px;
+}
+.infobox .cell .cellBody .couponGroup .label{
+    line-height: 28px;
+    margin-right: 8px;
+    display: inline-block;
+    vertical-align: middle;
+    color: #333;
+}
+.infobox .cell .cellBody .couponGroup .box{
+    width: 200px;
+    display: inline-block;
+    vertical-align: middle;
+    height: 34px;
+    line-height: 34px;
+    font-size: 12px;
+    border: 1px solid #DDDDDD;
+    color: #999999;
+
+}
+.m-settlement{
+    background-color: #f3f3f3;
+    border: 1px solid #eaeaea;
+}
+.m-settlement .cutbox{
+    position: relative;
+    padding: 15px 30px;
+    border-bottom: 1px solid #eaeaea;
+    background-color: #fff;
+}
+.m-settlement .cutbox .m-redPacket{
+    line-height: 28px;
+    text-align: right;
+}
+.m-settlement .cutbox .m-redPacket .colrt{
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 12px;
+}
+.m-settlement .paybox{
+    padding: 20px 30px;
+}
+.m-settlement .paybox .invoicebox{
+    width: 640px;
+}
+.m-settlement .paybox .invoicebox .title{
+    height: 32px;
+    line-height: 32px;
+}
+.m-settlement .paybox .invoicebox .u-invoiceTip{
+    margin-top: 13px;
+    margin-bottom: 20px;
+    font-size: 12px;
+    color: #999;
+}
+.m-settlement .paybox .amountbox {
+    font-size: 14px;
+    width: 350px;
+    position: relative;
+    padding-bottom: 25px;
+}
+.m-settlement .paybox .v-orderSubmit .numrow {
+    height: 24px;
+    padding: 2px 0;
+    line-height: 24px;
+    font-size: 12px;
+}
+.m-settlement .paybox .v-orderSubmit .tlt {
+    text-align: right;
+    float: left;
+    width: 100%;
+    position: relative;
+}
+.m-settlement .paybox .v-orderSubmit .tlt em {
+    margin-right: 100px;
+    display: block;
+}
+.m-settlement .paybox .v-orderSubmit .numval {
+    position: relative;
+    float: right;
+    text-align: right;
+    width: 90px;
+    margin-left: -90px;
+}
+.m-settlement .paybox .v-orderSubmit .totalnum {
+    font-size: 18px;
+    font-weight: 700;
+    color: #e73333;
+}
+.m-settlement .paybox .btnrow {
+    position: relative;
+    margin: 15px 0 5px;
+}
+.m-settlement .gotocart {
+    float: right;
+    display: inline-block;
+    width: 105px;
+    height: 40px;
+    line-height: 40px;
+    text-align: left;
+    font-size: 12px;
+}
+.z-submitbtn {
+    display: inline-block;
+    float: right;
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 14px;
+    background: #e31436;
+    cursor: pointer;
+    text-decoration: none;
+}
+.z-submitbtn:hover{
+    text-decoration: none;
+    color: white;
+    background-color: red;
+}
+.m-settlement .paybox .amountbox .addr {
+    position: absolute;
+    right: 0;
+    color: #999;
+    height: 24px;
+    line-height: 24px;
+    white-space: nowrap;
+    font-size: 12px;
+}
+.m-agree {
+    position: relative;
+    padding-top: 10px;
+    color: #999;
+    text-align: right;
+}
+.m-agree a {
+    color: #999;
+    cursor: pointer;
+}
+.my-skin .layui-layer-btn .layui-layer-btn0 {
+    border-color: #e31436;
+    background-color: #e31436;
+    color: #fff;
+}

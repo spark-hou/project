@@ -1,0 +1,215 @@
+ .m-personal>.title,
+ .m-personal>.title1{
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #191e1f;
+}
+ .m-personal>.title1 {
+     border-bottom: 1px solid #ddd;
+ }
+
+ .fool-2 .m-myaddress {
+     width: 615px;
+     margin-bottom: 35px;
+     font-size: 12px;
+ }
+
+ .fool-2 .m-myaddress .item {
+     padding: 15px 0 0;
+ }
+
+ .fool-2 .m-myaddress .item .item-label i {
+     line-height: 20px;
+     color: #d12147;
+     font-style: normal;
+     vertical-align: middle;
+ }
+
+ .fool-2 .m-myaddress .item-label {
+     float: left;
+     line-height: 36px;
+     width: 80px;
+     margin-right: 20px;
+     text-align: right;
+     color: #333;
+     vertical-align: middle;
+     display: inline-block;
+ }
+
+ .fool-2 .item-1 .relative {
+     display: inline-block;
+     vertical-align: middle;
+     border: 1px solid #CCCCCC;
+     padding: 5px 10px;
+     width: 325px;
+ }
+
+ .fool-2 .item-1 .relative input {
+     overflow: hidden;
+     width: 300px;
+ !important;
+ }
+
+ .fool-2 .item-2 textarea {
+     margin-top: 5px;
+     padding: 7px 10px;
+     border: 1px solid #ddd;
+     color: #333;
+     overflow: auto;
+     font-size: 100%;
+     float: left;
+     width: 438px;
+     height: 50px;
+     resize: none;
+ }
+
+ .fool-2 .item .item-input {
+     float: left;
+     width: 438px;
+     height: 36px;
+     line-height: 20px;
+     padding: 7px 10px;
+     margin: 0px 5px 0 0px;
+     border: 1px solid #ddd;
+     color: #333;
+     overflow: auto;
+     display: inline-block;
+     vertical-align: middle;
+ }
+
+ .fool-2 .item-5 .i1 {
+     width: 90px;
+ }
+
+ .fool-2 .item-5 .i2 {
+     width: 194px;
+ }
+
+ .fool-2 .item-5 .i3 {
+     width: 129px;
+ }
+
+ .fool-2 .item-5 i {
+     display: inline-block;
+     font-style: normal;
+     float: left;
+     vertical-align: middle;
+     margin-top: 9px;
+     margin-right: 3px;
+ }
+
+ .fool-2 .item-bottom {
+     margin-left: 105px;
+     position: relative;
+     z-index: 1;
+ }
+
+ .fool-2 .item-bottom .item-submit {
+     color: #fff;
+     border: 1px solid #e31346;
+     background-color: #e31346;
+     width: 130px;
+     height: 40px;
+     margin-top: 20px;
+     margin-right: 20px;
+     font-size: 14px;
+     cursor: pointer;
+ }
+ .fool-2 .item-bottom .item-submit.changePlace{
+     display: none;
+ }
+
+ .fool-3 .addNewAddr {
+     display: inline-block !important;
+     height: 26px;
+     line-height: 26px;
+     padding: 0 5px;
+     color: #333;
+     text-align: center;
+     border: 1px solid #999;
+     width: 120px;
+     font-size: 14px;
+     margin-bottom: 20px;
+     margin-left: 10px;
+ }
+
+ .fool-3 .addNewAddr:hover {
+     border: 1px solid red;
+     color: red;
+ }
+
+ .fool-3 .content {
+     float: left;
+     width: 342px;
+     padding: 0 20px;
+     border: 1px solid #EEEEEE;
+     font-size: 12px;
+     position: relative;
+     height: 154px;
+     margin: 0 10px 16px 10px;
+ }
+
+
+ .fool-3 .content.active{
+     border: 2px solid #e31436;
+     background: #fffbee url("../img/order/right.png") no-repeat 308px 124px;!important;
+ }
+ .fool-3 .content1{
+     display: none;
+ }
+ .fool-3 .content .title {
+     display: inline-block;
+     margin: 0 auto;
+     width: 300px;
+     text-align: left;
+     padding-top: 3px;
+     word-break: break-all;
+     height: 35px;
+     line-height: 35px;
+     border-bottom: 1px solid #eee;
+     font-weight: 700;
+ }
+
+ .fool-3 .content .title span {
+     font-size: 14px;
+ }
+
+ .fool-3 .content .title b {
+     float: right;
+     display: none;
+     font-style: normal;
+     color: #666
+ }
+
+ .fool-3 .content .place span,
+ .fool-3 .content .place i,
+ .fool-3 .content .place b {
+     display: block;
+     padding: 5px 0;
+ }
+
+ .fool-3 .content .opspan {
+     position: absolute;
+     bottom: 7px;
+     left: 0;
+     display: none;
+ }
+ .fool-3 .content .opspan a{
+     color: #666;
+     display: inline-block;
+     margin-left: 30px;
+ }
+ .fool-3 .content .default{
+     position: absolute;
+     top: 12px;
+     right: 20px;
+     color: #d12147;
+     display: none;
+     cursor: pointer;
+ }
+ .fool-2,
+ .fool-3{
+     margin-left: 83px;
+ }

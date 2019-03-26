@@ -1,0 +1,121 @@
+
+.account-title .title {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #191e1f;
+    margin: 0;
+}
+
+.a-main {
+    margin-top: 20px;
+}
+
+.a-main .tit {
+    margin-bottom: 17px;
+    line-height: 17px;
+    font-size: 14px;
+}
+
+.bar-account {
+    height: 90px;
+}
+
+.bar-account-1 {
+    background-color: #f6f6f6;
+}
+
+.account-ico {
+    background: url('../img/account_management/bg.png') no-repeat;
+
+}
+
+.account-ico-phone {
+    background-position: 0 0;
+}
+
+.bar-account .account-ico {
+    float: left;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+}
+
+.bar-account .nickname {
+    float: left;
+    margin-top: 35px;
+    line-height: 20px;
+    font-size: 14px;
+}
+
+.bar-account .btn {
+    display: inline-block;
+    float: right;
+    margin: 30px 20px 0 0;
+    width: 108px;
+    height: 28px;
+    line-height: 19px;
+    text-align: center;
+    font-size: 12px;
+    color: #e31436;
+    text-decoration: none;
+    border-width: 1px;
+    border-style: solid;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+.bar-account .btn-link {
+    border-color: #f6f6f6;
+    color: #51b8f1;
+}
+
+.m-thirdparty {
+    margin-top: 20px;
+}
+
+.bar-account-2 {
+    border-bottom: 1px dotted #ddd;
+}
+.bar-account .btn-able {
+    border-color: #e31436;
+    color: #e31436;
+}
+.account-ico-netease-gray {
+    background-position: -300px -60px;
+}
+.account-ico-netease{
+    background-position: -300px 0;
+}
+.account-ico-wx-gray {
+    background-position: -60px -60px;
+}
+.account-ico-wx{
+    background-position: -60px 0;
+}
+.account-ico-sina-gray {
+    background-position: -120px -60px;
+}
+.account-ico-sina{
+    background-position: -120px 0;
+}
+.account-ico-qq {
+    background-position: -180px 0;
+}
+.account-ico-alipay-gray {
+    background-position: -240px -60px;
+}
+.account-ico-alipay{
+    background-position: -240px 0;
+}
+.bar-account .btn-text {
+    border-color: #fff;
+    color: #333;
+}
+.input-group{
+    width: 400px;
+    padding-top: 40px;
+    margin: 0 auto;
+}

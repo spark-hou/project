@@ -1,0 +1,223 @@
+/*public*/
+.container2 {
+    width: 980px;
+    margin: 0 auto;
+    font-size: 14px;
+    padding: 20px 0;
+}
+
+h3 {
+    margin: 0;
+    padding: 0;
+}
+
+.fool {
+    background-color: #F7F7F7;
+}
+
+.orderHint {
+    border: 1px solid #eaeaea;
+    border-bottom: none;
+    padding: 25px 0 0 32px;
+    color: #333;
+    background-color: #fff;
+}
+
+.hintOne {
+    display: block;
+    padding-bottom: 7px;
+    width: 920px;
+    height: 32px;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.hintOne b {
+    display: inline-block;
+    position: relative;
+    top: 6px;
+    left: 0;
+    margin-right: 10px;
+    width: 24px;
+    height: 24px;
+    background: #fff url(../img/pay/icon.png) no-repeat -2px -360px;
+}
+
+.hintTwo {
+    width: 910px;
+    display: block;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.hintTwo b {
+    color: #d12046;
+}
+
+.wuliuInfor {
+    position: relative;
+    padding: 20px 0 20px 32px;
+    margin-bottom: 20px;
+    border: 1px solid #eaeaea;
+    border-top: none;
+    color: #333;
+    font-size: 12px;
+    background-color: #fff;
+}
+
+.wuliuInfor .myOrder {
+    position: absolute;
+    top: 20px;
+    right: 35px;
+    color: #999;
+    outline: none;
+    cursor: pointer;
+
+
+}
+
+.wuliuInfor span {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.wuliuInfor span {
+    display: block;
+    padding-bottom: 5px;
+}
+
+.payInfo {
+    padding: 10px 32px 32px;
+    border: 1px solid #eaeaea;
+    background-color: #fff;
+}
+
+.orderInfo {
+    padding-bottom: 8px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.m-introduceLayer {
+    float: right;
+    margin-top: 10px;
+    position: relative;
+}
+
+.m-introduceLayer .title {
+    display: block;
+    height: 28px;
+    line-height: 28px;
+    font-size: 12px;
+    color: #999;
+    text-align: right;
+    cursor: pointer;
+}
+
+.m-introduceLayer .detail {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 30px;
+    width: 205px;
+    color: #999;
+    font-size: 12px;
+    line-height: 20px;
+    border: 1px solid #ddd;
+    padding: 15px;
+    background-color: #fff;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, .15);
+    z-index: 99;
+}
+
+.payAmount b {
+    font-size: 24px;
+    font-weight: 700;
+    color: #d12147;
+    vertical-align: middle;
+}
+
+.m-introduceLayer .triup {
+    position: absolute;
+    right: 27px;
+    top: -8px;
+    width: 16px;
+    height: 8px;
+    overflow: hidden;
+    background: url(../img/pay/icon2.png) no-repeat 0 -8px;
+}
+
+.m-payway .way {
+    position: relative;
+}
+
+.u-radio:checked {
+    background: url(../img/pay/radio.png) no-repeat 0 -14px;
+}
+
+.u-radio {
+    width: 17px;
+    height: 18px;
+    display: inline-block;
+    zoom: 1;
+    -webkit-appearance: none;
+    background: url(../img/pay/radio.png) no-repeat 0 0;
+}
+
+.payWays .u-radio {
+    margin-right: -15px;
+    width: 14px;
+    outline: none;
+    border: none;
+}
+.payWays .u-radio:focus{
+    outline: none;
+    border: none;
+}
+
+.payWays input {
+    cursor: pointer;
+    height: 14px;
+    line-height: 14px;
+}
+
+.payWays .checked {
+    border: 2px solid #d31b43;
+}
+
+.payWays label {
+    margin-left: 35px;
+    display: inline-block;
+    vertical-align: middle;
+    width: 146px;
+    height: 56px;
+    border: 2px solid #fff;
+    cursor: pointer;
+    overflow: hidden;
+    background: #fff url(../img/pay/icon.png) no-repeat;
+}
+
+.payWays .zhiFuBao {
+    background-position: center -180px;
+}
+
+.payWays .wangYiBao {
+    background-position: center -240px;
+}
+
+.payWays .weixin {
+    background-position: center -300px;
+}
+
+.payBtn {
+    position: relative;
+    margin-top: 20px;
+    width: 186px;
+    height: 40px;
+    line-height: 40px;
+    background-color: #d12147;
+    cursor: pointer;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    font-size: 18px;}

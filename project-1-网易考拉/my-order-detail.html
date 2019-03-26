@@ -1,0 +1,465 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/swiper-4.5.0/css/swiper.min.css">
+
+    <!--头尾模板-->
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <!--本页css-->
+    <link rel="stylesheet" href="./css/my-order-detail.css">
+</head>
+<body>
+<div class="header">
+    <div class="user-info">
+        <div class="container clearfix">
+            <div class="pull-left">
+                <span>考拉欢迎你！</span>
+                <a href="">登陆</a>
+                <a href="">免费注册</a>
+                <a href="">手机考拉</a>
+            </div>
+            <div class="pull-right">
+                <a href="">每日签到</a>
+                <a href="">我的订单</a>
+                <!--个人中心-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1">
+                        个人中心
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">我的红包</a></li>
+                        <li><a href="#">我的考拉豆</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">账号管理</a></li>
+                        <li><a href="#">我的实名认证</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">我收藏的商品</a></li>
+                        <li><a href="#">我关注的品牌</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">售后管理</a></li>
+                    </ul>
+                </div>
+                <!--客户服务-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2">
+                        客户服务
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">知识产权保护</a></li>
+                        <li><a href="#">规则中心</a></li>
+                    </ul>
+                </div>
+                <!--充值中心-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3">
+                        充值中心
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <li><a href="#">话费流量</a></li>
+                        <li><a href="#">游戏充值</a></li>
+                        <li><a href="#">AppStore充值卡</a></li>
+                    </ul>
+                </div>
+                <!--消费者权益-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4">
+                        消费者权益
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <li><a href="#">消费者告知书</a></li>
+                        <li><a href="#">消费投诉公社</a></li>
+                    </ul>
+                </div>
+                <!--more-->
+                <div class="dropdown hover-qr">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5">
+                        更多
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <li><a href="#">收藏本站</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">新浪微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">易信公众号</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">招商合作</a></li>
+                        <li><a href="#">考拉招聘</a></li>
+
+                    </ul>
+                    <!--隐藏显示二维码-->
+                    <div class="show-qr">
+                        <img src="./img/header-footer/qr-21.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第二行-logo和搜索-->
+    <div class="logo-search">
+        <div class="container clearfix">
+            <div class="pull-left logo">
+                <a href="">
+                    <img src="./img/header-footer/logo-big.png" alt="">
+                </a>
+            </div>
+        </div>
+    </div>
+
+</div>
+<!-----------------------------------------正文部分------------------------------->
+<div class="bread">
+    <div class="container">
+        <span>当前位置：</span>
+        <ol class="breadcrumb">
+            <li><a href="index.html">网易考拉</a></li>
+            <li><a href="my-order.html">个人中心</a></li>
+            <li><a href="my-order.html">我的订单</a></li>
+            <li class="active">订单详情</li>
+        </ol>
+    </div>
+</div>
+<div class="order-detail ">
+    <div class="container">
+        <div class="state-current">
+            <div class="top-wrap">
+                <h3>
+                    <i class="cred glyphicon glyphicon-info-sign"></i>
+                    当前状态：订单关闭</h3>
+                <div class="cnt">
+                    <p>关闭原因：系统定时关单</p>
+                </div>
+                <div class="btns">
+                    <input type="button" class="btn-red30 j-buyagain" value="再次购买">
+                </div>
+                <span class="appDownload clearfix">
+                 <span class="code"></span>
+                    <a href="#" class=" textLink">下载考拉手机app，<br>实时跟踪订单物流&gt;</a>
+                </span>
+            </div>
+        </div>
+        <div class="fangpianRemind">
+            <p>
+                <span class="title">
+                    <b></b>
+                    安全提醒：
+                </span>
+                <span class="content">
+                    请不要将银行卡、密码、手机验证码提供给他人，考拉不会通过任何非官方电话、QQ、微博、微信与您联系。任何以“缺货、海关卡单、商品检验不合格、假货”等理由要求您点击山寨考拉链接进行退款或取消订单的都是骗子！
+                    <span class="f-hkdn">
+                        ：95163111
+                    </span>
+                </span>
+                <br>
+            </p>
+
+        </div>
+        <div class="oddetail">
+            <h4 class="title" id="auto-id-1553257268771">订单信息</h4>
+            <div class="cnt">
+                <div id="j-rechargeAndAddressSection">
+                    <section class="m-consigneeSection">
+                        <span class="fl">收货地址：</span>
+                        <span class="addr">343433434&nbsp;&nbsp;155****5555&nbsp;&nbsp;江苏省连云港市海州区43434343&nbsp;&nbsp;</span>
+                    </section>
+                </div>
+                <p><span class="ls">订单号</span>：201903200856GORDER24466176</p>
+                <p>支付金额：<i class="cred">¥94.52</i></p>
+                <p>下单时间：2019-03-20 08:56:29</p>
+            </div>
+        </div>
+        <div class="odgoods j-goods">
+            <ul class="th">
+                <li class="col col-1">商品信息</li>
+                <li class="col">重量</li>
+                <li class="col">售价（元）</li>
+                <li class="col">数量</li>
+                <li class="col col-5">优惠</li>
+            </ul>
+            <table class="goodslist-tbl" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr class="j-gitem">
+                    <td class="warehouse" colspan="6">
+                            <span class="source f-fl">
+                                <i class="u-icnft glyphicon glyphicon-map-marker"></i>发货仓：<em class="f-fwb">自营保税仓</em>
+                            </span>
+                    </td>
+                </tr>
+                <tr class="j-gitem" data-pid="1408222" data-pnum="1" data-skuid="1408222-40e7d32acc15c87d49ad25a15910f3c2" data-ishuangou="0" data-isnewergift="0" data-ismaizeng="0">
+                    <td class="col-img">
+                        <a  href="product.html">
+                            <img  alt="" src="./img/my-order-detail/p1.jpg" border="0">
+                        </a>
+                    </td>
+                    <td class="col-info clearfix">
+                        <a  class="goods-title j-title" href="product.html">
+                            Kao 花王 Curél珂润润浸保湿洁颜泡沫 150毫升 任何肤质都hold住
+                        </a>
+                        <br>
+                        <em class="sku_mod">150毫升</em>
+                    </td>
+                    <td class="col-weight">0.25kg</td>
+                    <td class="col-price">75.00</td>
+                    <td>1</td>
+                    <td class="col-coupon">
+                        <span class="item" title=" ">特价</span>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+            <table class="goodslist-tbl" cellspacing="0" cellpadding="0" border="0">
+                <tbody>
+                <tr>
+                    <td colspan="6" class="bottom clearfix submitWrap">
+                        <div>
+                            <p>¥75.00</p>
+                            <p>-¥0.00</p>
+                            <p>¥10.00</p>
+                            <p>¥9.52</p>
+                            <p class="fs">¥94.52</p>
+                        </div>
+                        <div>
+                            <p>商品总价：</p>
+                            <p>活动优惠：</p>
+                            <div class="m-feeitem">
+                                <em>运费：</em>
+                            </div>
+                            <div class="m-feeitem f-vama">
+                                <em>税费：</em>
+                            </div>
+                            <p>实付款：</p>
+                        </div>
+                    </td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<!--//猜你喜欢-->
+<div class="guess-like">
+    <div class="container">
+        <div class="big-title">
+            猜你喜欢
+            <b>根据你的浏览记录推荐的商品</b>
+        </div>
+        <div class="content-box clearfix">
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-1.jpg" alt=""></a>
+                <a href="" class="title">ESTĒE LAUDER 雅诗兰黛小棕瓶面部精华 特润修护肌透精华露 50毫升</a>
+                <span>￥552</span>
+                <del>￥850</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-2.jpg" alt=""></a>
+                <a href="" class="title">a2 白金婴儿配方幼儿奶粉三段 1-3岁900克 新老包装随机发货</a>
+                <span>￥215</span>
+                <del>￥298</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-3.jpg" alt=""></a>
+                <a href="" class="title">ESTĒE LAUDER 雅诗兰黛 特润修护精华眼霜 小棕瓶“抗蓝光”眼霜 15毫升 </a>
+                <span>￥439</span>
+                <del>￥510</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-4.jpg" alt=""></a>
+                <a href="" class="title">良品铺子开口笑甘栗（120g)</a>
+                <span>￥10.9</span>
+                <del>￥20.9</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+
+        </div>
+    </div>
+</div>
+<!--//大家都在买-->
+<div class="guess-like">
+    <div class="container">
+        <div class="big-title">
+            大家都在买
+            <b>全网最热门的商品推荐</b>
+        </div>
+        <div class="content-box clearfix">
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-1.jpg" alt=""></a>
+                <a href="" class="title">ESTĒE LAUDER 雅诗兰黛小棕瓶面部精华 特润修护肌透精华露 50毫升</a>
+                <span>￥552</span>
+                <del>￥850</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-2.jpg" alt=""></a>
+                <a href="" class="title">a2 白金婴儿配方幼儿奶粉三段 1-3岁900克 新老包装随机发货</a>
+                <span>￥215</span>
+                <del>￥298</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-3.jpg" alt=""></a>
+                <a href="" class="title">ESTĒE LAUDER 雅诗兰黛 特润修护精华眼霜 小棕瓶“抗蓝光”眼霜 15毫升 </a>
+                <span>￥439</span>
+                <del>￥510</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+            <div class="list">
+                <a href="" class="img"><img src="./img/header-footer/guess-like-4.jpg" alt=""></a>
+                <a href="" class="title">良品铺子开口笑甘栗（120g)</a>
+                <span>￥10.9</span>
+                <del>￥20.9</del>
+                <a href="" class="evaluate"><span>2324</span> 人已评价</a>
+            </div>
+        </div>
+    </div>
+</div>
+<!--------------------------------------------footer-------------------------------->
+<div class="footer">
+    <!--滚动公告-->
+    <div class="notice">
+        <div class="container">
+            <!--滚动公告-->
+            <div class="txtScroll-top">
+                <div class="bd">
+                    <ul class="infoList">
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--正低退邮&#45;&#45;保障-->
+    <div class="container footer-index">
+        <img src="./img/header-footer/footer-index.png" alt="">
+    </div>
+    <!--新手指南-简介-->
+    <div class="guide">
+        <div class="container clearfix">
+            <div class="pull-left left-logo">
+                <a href="" class="big-logo"><img src="./img/header-footer/footer-logo.png" alt=""></a>
+                <div class="small-logo">
+                    <span>关注我们</span>
+                    <img src="./img/header-footer/footer-wb.png" alt="">
+                    <img src="./img/header-footer/footer-wx.png" alt="">
+                    <img src="./img/header-footer/footer-yx.png" alt="">
+                </div>
+            </div>
+            <div class="pull-left guide-list">
+                <dl>
+                    <dt>考拉保障</dt>
+                    <dd><a href="">假一赔十</a></dd>
+                    <dd><a href="">廉政监督</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">购物流程</a></dd>
+                    <dd><a href="">支付方式</a></dd>
+                    <dd><a href="">通关税费</a></dd>
+                    <dd><a href="">常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="">退货政策</a></dd>
+                    <dd><a href="">退货流程</a></dd>
+                    <dd><a href="">退货说明</a></dd>
+                    <dd><a href="">联系客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>物流配送</dt>
+                    <dd><a href="">配送方式</a></dd>
+                    <dd><a href="">配送服务</a></dd>
+                    <dd><a href="">运费标准</a></dd>
+                    <dd><a href="">物流跟踪</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="">联系我们</a></dd>
+                    <dd><a href="">合作招商</a></dd>
+                    <dd><a href="">销售联盟</a></dd>
+                    <dd><a href="">CEO邮箱</a></dd>
+                </dl>
+            </div>
+            <div class="qr pull-left">
+                <img src="./img/header-footer/footer-right-qr.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--底部的information-->
+    <div class="info">
+        <div class="container">
+            <div class="list list-1">
+                <a href="http://ir.netease.com/phoenix.zhtml?c=122303&p=irol-IRHome&no_protofix" target="_blank">About
+                    NetEase</a><span>-</span>
+                <a href="http://gb.corp.163.com/gb/about/overview.html?no_protofix"
+                   target="_blank">公司简介</a><span>-</span>
+                <a href="http://gb.corp.163.com/gb/contactus.html?no_protofix" target="_blank">联系方式</a><span>-</span>
+                <a href="//www.kaola.com/footer/friendlylink.shtml" target="_blank">友情链接</a><span>-</span>
+                <a href="http://hr.163.com/?no_protofix" target="_blank">招聘方式</a><span>-</span>
+                <a href="http://help.163.com/?no_protofix" target="_blank">客服信息</a><span>-</span>
+                <a href="" target="_blank">隐私政策</a><span>-</span>
+                <a href="" target="_blank">网络营销</a><span>-</span>
+                <a href="" target="_blank">网易考拉</a>
+            </div>
+            <div class="list list-2">
+                <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+                <span>增值电信业务经营许可证：浙B2-20160288</span>
+                <a href="//pages.kaola.com/pages/activity/Businessentity.shtml" target="_blank">自营经营者信息</a>
+                <span>（浙）网械平台备字[2018]第00007号</span>
+            </div>
+            <div class="list list-3">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802002216&no_protofix"
+                   target="_blank"><img src="./img/header-footer/footer-info-1.png" alt="">浙公网安备 33010802002216号</a>
+                <span>网易公司版权所有©1997-2019</span>
+                <a href="//haitao.nos.netease.com/d37ac4eb-016f-485b-9577-04ae7e0f4bbd.jpg" target="_blank">互联网药品信息服务资格证书编号（浙）-2017-0027</a>
+                <span>浙ICP备16011229号-6</span>
+            </div>
+            <div class="list list-4">
+                <a href="//credit.szfw.org/CX20170920030507330453.html" target="_blank"><img
+                        src="./img/header-footer/footer-info-2.png" alt=""></a>
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e15040881010058239iy2f000000&ct=df&a=1&pa=20160215"
+                   target="_blank"><img src="./img/header-footer/footer-info-3.png" alt=""></a>
+                <a href="http://idinfo.zjaic.gov.cn/bscx.do?method=lzxx&id=3301083301980000040550&no_protofix"
+                   target="_blank"><img src="./img/header-footer/footer-info-4.gif" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/SuperSlide2.1/jquery.SuperSlide.2.1.3.js"></script>
+<script src="lib/swiper-4.5.0/js/swiper.min.js"></script>
+<script src="./js/href.js"></script>
+<!--<script src="js/header-footer.js"></script>-->
+<!--本页js-->
+<script src="./js/my-order-detail.js"></script>
+</body>
+</html>

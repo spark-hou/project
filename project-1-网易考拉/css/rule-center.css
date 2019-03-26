@@ -1,0 +1,108 @@
+.personLeftNav {
+    width: 178px;
+    border: 1px solid #eaeaea;
+    border-top: 0;
+}
+
+.box {
+    margin-top: 40px;
+}
+
+h3,h4 {
+    margin: 0;
+    padding: 0;
+}
+
+/* 本例子css */
+.sideMenu {
+}
+
+.sideMenu h3 {
+    height: 46px;
+    line-height: 46px;
+    padding-left: 10px;
+    border-top: 1px solid #e3e3e3;
+    background: white;
+    cursor: pointer;
+    font-size: 16px;
+    color: black;
+    font-weight: bold;
+}
+
+.sideMenu h3 em {
+    float: right;
+    display: block;
+    width: 40px;
+    height: 32px;
+    background: url(../img/rule/icoAdd.png) 16px 12px no-repeat;
+    cursor: pointer;
+}
+
+.sideMenu h3.on em {
+    background-position: 16px -57px;
+}
+
+.sideMenu ul {
+    padding: 15px 25px;
+    color: #999;
+    border-top: 1px solid #E3E3E3;
+    display: none; /* 默认都隐藏 */
+}
+.sideMenu ul li{
+    font-size: 14px;
+    line-height: 28px;
+    color: black;
+}
+.sideMenu ul li:hover{
+    color: red;
+}
+.sideMenu ul li.active{
+    color: red;
+}
+.persRight {
+    width: 888px;
+    border: 1px solid #eaeaea;
+    min-height: 500px;
+}
+.helpRH2 {
+    font-size: 18px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    line-height: 56px;
+    padding: 0 39px;
+    border-bottom: 1px solid #eee;
+}
+.helpRightBox {
+    padding: 32px 0 0;
+    font-size: 14px;
+    line-height: 28px;
+}
+.helpRightBox .w-tit, .helpRightBox .w-tit2, .helpRightBox p, .helpRightBox ol, .helpRightBox ul, .helpRightBox dl, .helpRightBox table {
+    margin: 0 39px;
+}
+#p-faq dl .w-tit2, #p-faq dl ul {
+    margin-left: 0;
+    margin-right: 0;
+}
+.helpRightBox .para {
+    margin-bottom: 30px;
+}
+.helpRightBox a {
+    text-decoration: underline;
+}
+a, a:hover {
+    color: #51b8f1;
+}
+ins, a {
+    text-decoration: none;
+}
+.n-example h3 {
+    font-weight: bold;
+    font-size: 15px;
+}
+.n-example .lst li {
+    margin-top: 25px;
+}
+.n-example h4 {
+    font-weight: bold;
+}

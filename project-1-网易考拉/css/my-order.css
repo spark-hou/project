@@ -1,0 +1,275 @@
+.guess-like {
+    background-color: white;
+}
+
+p, b, i, em {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.my-box {
+    padding: 40px 0;
+}
+
+.my-list {
+    width: 140px;
+    margin-right: 20px;
+}
+
+.my-list .title {
+    padding-bottom: 20px;
+    margin-bottom: 22px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #191e1f;
+    border-bottom: 1px solid #ddd;
+}
+
+.list-content {
+    width: 930px;
+}
+
+.my-list li a {
+    display: block;
+    color: #191e1f;
+}
+
+.my-list .tag {
+    padding-left: 10px;
+    margin: 10px 0;
+}
+
+.my-list .tag a:hover {
+    color: #D21F46;
+}
+
+.my-list .tag.active {
+    border-left: 2px solid #D21F46;
+}
+
+.my-list .tag.active a {
+    color: #D21F46;
+    font-weight: bold;
+}
+
+.my-list .line {
+    margin: 5px 0;
+    width: 120px;
+    margin-left: 5px;
+    border-top: 1px solid #ddd;
+}
+
+.list-content .slideTab li {
+    width: 120px;
+    text-align: center;
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: 700;
+    color: #191e1f;
+    cursor: pointer;
+}
+
+.list-content .slideTab li.active {
+    color: #e31436;
+}
+
+.list-content .slideTab li b {
+    color: #e31436;
+}
+
+.list-content .slideTab {
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 22px;
+}
+.list-content .slideTab li.pull-right{
+    font-size: 14px;
+    font-weight: 400;
+}
+.list-content .slideTab .cover{
+    width: 120px;
+    border-top: 2px solid #e31436;
+    position: absolute;
+    bottom: -1px;
+    left: 0px;
+}
+.list-content .search-box{
+    font-size: 12px;
+    color: black;
+    padding-bottom: 20px;
+}
+.list-content .search-box .input-group {
+   width: 250px;
+
+}
+.list-content .search-box .pull-right .pull-left{
+    padding-left: 30px;
+}
+.list-content .search-box .dropdown button{
+    width: 100px;
+    overflow: hidden;
+}
+.list-content .search-box .dropdown .caret{
+    color: #e31436;
+}
+.list-content .orderBox .title{
+    font-size: 14px;
+    color: #333;
+}
+.list-content .orderBox .title .h-text{
+    float: left;
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+}
+.list-content .orderBox .title .h-text.h-goods {
+    width: 325px;
+    padding-left: 20px;
+    text-align: left;
+}
+.list-content .orderBox .title .h-text.h-price {
+    width: 70px;
+}
+.list-content .orderBox .title .h-text.h-amount {
+    width: 48px;
+}
+.list-content .orderBox .title .h-text.h-gOperate {
+    width: 80px;
+}
+.list-content .orderBox .title .h-text.h-status,
+.list-content .orderBox .title .h-text.h-total {
+    width: 130px;
+}
+.list-content .orderBox .title .h-text.h-operate {
+    width: 120px;
+}
+.list-content .orderBox .orderList .cgWidth {
+    width: 488px;
+}
+.list-content .orderBox .orderList .cgPay {
+    width: 118px;
+}
+.list-content .orderBox .orderList .cgStatus {
+    width: 120px;
+}
+.list-content .orderBox .orderList .cgOper {
+    width: 110px;
+}
+.myOdr_tb1 th {
+    border: 1px solid #e8e8e8;
+    text-align: left;
+    font-weight: 400;
+    font-size: 12px;
+}
+.myOdr_tb1 .oInfo {
+    height: 40px;
+    color: #999;
+}
+.oInfo span {
+    display: inline-block;
+    margin-right: 25px;
+}
+.oInfo i {
+    padding-right: 4px;
+    color: #999;
+    margin-left: 10px;
+    font-size: 13px;
+}
+.oInfo .glyphicon-trash {
+    float: right;
+    display: inline-block;
+    width: 17px;
+    height: 17px;
+    cursor: pointer;
+}
+.oInfo .glyphicon-trash:hover{
+    color: red;
+}
+.aOrder-items {
+    border: 1px solid #e8e8e8;
+}
+.aImg img {
+    padding: 20px 12px 20px 20px;
+    width: 80px;
+    height: 80px;
+}
+.myOdr_tb2 .goodsTitle {
+    width: 220px;
+    padding-right: 12px;
+}
+.aOrder .aTit {
+    display: block;
+    color: #333;
+    word-break: break-all;
+    font-size: 14px;
+}
+.aOrder .fee, .aOrder .sku_mod {
+    font-size: 12px;
+    color: #999;
+}
+.myOdr_tb2 .price {
+    width: 70px;
+}
+.aOrder .marketPrice {
+    color: #999;
+    text-decoration: line-through;
+}
+.myOdr_tb2 .amount {
+    width: 48px;
+}
+.myOdr_tb2 .goodsOperate {
+    width: 80px;
+}
+.myOdr_tb1 .rbBorder {
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.aOrder .fb {
+    font-weight: 700;
+}
+.m-quality-btn, .m-quality-btn:hover {
+    display: inline-block;
+    height: 26px;
+    margin-top: 5px;
+    padding: 0 14px;
+    line-height: 26px;
+    color: #fff;
+    background: #e31436;
+    border-radius: 50px;
+    border: 0;
+    outline: none;
+    font-size: 12px;
+    text-decoration: none;
+    cursor: pointer;
+}
+.myOdr_tb1 .rbBorder {
+    border-right: 1px solid #e8e8e8;
+    border-bottom: 1px solid #e8e8e8;
+}
+.operate a,
+.orderStatus a,
+.orderStatus strong {
+    display: block;
+    color: black;
+}
+.aOrder td{
+    padding: 10px 0;
+}
+.orderList{
+    padding: 10px 0;
+}
+.no-order{
+    display: none;
+    margin: 0 auto;
+    padding: 50px;
+    text-align: center;
+}
+.no-order i{
+    vertical-align: middle;
+    display: inline-block;
+    width: 145px;
+    height: 150px;
+    background:url("../img/my-order/bg.png") no-repeat  0 0;
+}

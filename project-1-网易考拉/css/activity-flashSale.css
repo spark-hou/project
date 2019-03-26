@@ -1,0 +1,323 @@
+.m-header {
+    padding-top: 20px;
+    height: 80px;
+    text-align: center;
+    color: #fff;
+    background: #fe0000 url("../img/activity-flashSale/banner.png") no-repeat center;
+
+}
+.nav-bar .right-fixed-guide3 {
+    position: absolute;
+    top: 171px;
+    right: -87px;
+    z-index: 50;
+    width: 68px;
+}
+p,
+b,
+i,
+h1,
+h2,
+h3,
+h4 {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+}
+
+.m-header .link,
+.m-header .link:hover {
+
+    color: #fff;
+    text-decoration: none;
+
+}
+
+.m-header .icon {
+    font-size: 36px;
+    display: inline-block;
+    margin-right: 10px;
+    width: 41px;
+    height: 38px;
+    vertical-align: -4px;
+}
+
+.m-header .bigText {
+
+    font-size: 36px;
+    font-weight: bold;
+
+}
+
+.m-header .smallText {
+
+    margin: 0 5px 0 18px;
+    font-size: 14px;
+
+}
+
+.m-nav {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    overflow: hidden;
+    background-color: #333;
+}
+
+.tabWrap {
+    margin: 0 auto;
+    width: 1090px;
+    height: 50px;
+}
+
+.tabWrap a {
+    display: block;
+}
+
+.m-nav .f-started,
+.f-started:hover,
+.f-soon,
+.f-soon:hover,
+.f-ready,
+.f-ready:hover,
+.f-tomorrow,
+.f-tomorrow:hover {
+    color: #aaa;
+}
+
+.m-nav .tab,
+.m-nav .tab:hover {
+    width: 120px;
+    display: block;
+    float: left;
+    margin-right: -1px;
+    height: 50px;
+    line-height: 18px;
+    border-left: 1px solid #454545;
+    border-right: 1px solid #454545;
+    text-decoration: none;
+    text-align: center;
+
+}
+
+.m-nav .tab b {
+
+    display: block;
+
+}
+
+.m-nav .tab .time {
+
+    margin-top: 8px;
+    font-size: 16px;
+
+}
+
+.m-nav .f-ing .time i {
+
+    display: block;
+    font-size: 14px;
+    color: #fe0000;
+    vertical-align: 1px;
+
+}
+
+.m-nav .f-ing .time {
+
+    font-size: 18px;
+    color: #fff;
+
+}
+
+.m-nav .f-select .time {
+
+    color: #fff;
+
+}
+
+.m-nav .f-select,
+.m-nav .f-select:hover {
+
+    position: relative;
+    height: 50px;
+    color: #fff;
+    border-bottom: 3px solid #fe0000;
+
+}
+
+.m-nav .f-ing {
+
+    background-color: #121212;
+
+}
+
+.m-nav .f-tomorrow .time {
+
+    margin-top: 14px;
+    height: 23px;
+    font-size: 16px;
+
+}
+
+.m-nav .f-tomorrow .time i {
+    vertical-align: -3px;
+    margin-right: 8px;
+    font-size: 22px;
+
+}
+.lineOfFour .detailWrap {
+    float: left;
+    position: relative;
+    *display: inline;
+    width: 262px;
+    margin: 0 10px 14px 0;
+    font-size: 12px;
+    background: #fff;
+}
+.lineOfFour .detailWrap .pic,
+.detailWrap .pic:hover {
+    color: #fff;
+    text-decoration: none;
+}
+.lineOfFour .detailWrap .pic {
+    display: block;
+    position: relative;
+    zoom: 1;
+    cursor: pointer;
+}
+.lineOfFour .detailWrap .pic .proImg {
+    width: 262px;
+    height: 262px;
+}
+.m-goodslist .detailWrap .pic .label-lb {
+    display: block;
+    position: absolute;
+    left: 10px;
+    bottom: 0;
+    height: 20px;
+    padding: 0 10px;
+    border: 1px solid #f00;
+    color: #f00;
+    line-height: 20px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.85);
+}
+.lineOfFour .detailWrap .proinfo {
+    position: relative;
+    padding: 5px 10px 7px;
+    background: #fff;
+    word-wrap: break-word;
+    word-break: break-all;
+    overflow: hidden;
+}
+.lineOfFour .detailWrap .tit {
+    margin-top: 4px;
+    font-size: 14px;
+    height: 40px;
+    line-height: 20px;
+    overflow: hidden;
+}
+.detailWrap .tit .titLink {
+    display: block;
+    font-weight: bold;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -o-text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.lineOfFour .detailWrap .tit a,
+.detailWrap .tit a:hover {
+    color: #333;
+}
+.lineOfFour .detailWrap .tit .intro,
+.detailWrap .tit .intro:hover {
+    color: #999;
+    font-weight: normal;
+    font-size: 12px;
+}
+.act {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: baseline;
+    -webkit-align-items: baseline;
+    align-items: baseline;
+}
+.act .yen {
+    font-size: 14px;
+    color: #f00;
+}
+.act .money {
+    font-size: 26px;
+    margin: 0 4px;
+    color: #f00;
+}
+.act .box-marketprice {
+    font-size: 12px;
+    color: #999;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+}
+.act .btn {
+    display: inline-block;
+    width: 72px;
+    height: 28px;
+    line-height: 17px;
+    text-align: center;
+    font-size: 13px;
+    border: 1px solid #f00;
+    border-radius: 14px;
+    text-decoration: none;
+    color: #f00;
+    align-self: center;
+}
+.m-goodslist .dlprogress {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    height: 34px;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+}
+.m-goodslist .dlprogress .barWrap {
+    position: relative;
+    width: 190px;
+    height: 12px;
+    border: 1px solid #f00;
+    border-radius: 6px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+.m-goodslist .dlprogress .barWrap .bar {
+    display: inline-block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 51%;
+    height: 100%;
+    opacity: 0.7;
+    background-image: -webkit-gradient(linear,left top, right top,from(#f00),to(#ff3264));
+    background-image: -webkit-linear-gradient(left,#f00 0%,#ff3264 100%);
+    background-image: linear-gradient(90deg,#f00 0%,#ff3264 100%);
+    border-radius: 6px;
+}
+.m-goodslist .dlprogress .remain {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    color: #f00;
+    height: 14px;
+    position: relative;
+}
+.m-goodslist .dlprogress .txt-remain {
+    position: absolute;
+    font-size: 20px;
+    margin-left: 4px;
+    -webkit-transform: scale(0.5) translate(-50%,-50%);
+    transform: scale(0.5) translate(-50%,-50%);
+    white-space: nowrap;
+}

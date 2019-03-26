@@ -1,0 +1,208 @@
+.m-personal .title1, .m-personal .title {
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #191e1f;
+}
+
+.m-personal > .title {
+    border-bottom: 1px solid #ddd;
+}
+
+.favlist .resultwrap {
+    width: 920px;
+    padding-top: 30px;
+}
+
+.m-filter {
+    overflow: hidden;
+    margin-bottom: 30px;
+    border: 1px solid #eaeaea;
+    font-size: 13px;
+}
+
+.m-filter .filter.bd {
+    border-bottom: 1px dotted #eaeaea;
+}
+
+.m-filter .filter .tit {
+    float: left;
+    width: 80px;
+    height: 44px;
+    line-height: 44px;
+    padding-left: 15px;
+    padding-bottom: 99999px;
+    margin-bottom: -99999px;
+    background-color: #f8f8f8;
+    color: #666;
+}
+
+.m-filter .filter .cntw {
+    overflow: hidden;
+    height: 36px;
+}
+
+.m-filter .filter .cnt {
+    float: left;
+    width: 750px;
+    padding: 8px 0 8px 94px;
+}
+
+.m-filter .filter .li {
+    float: left;
+    height: 28px;
+    line-height: 28px;
+    margin-right: 20px;
+}
+
+.m-filter .filter .li.z-act span {
+    display: inline-block;
+    line-height: 19px;
+    padding: 0 2px;
+    border: 1px solid #d21f46;
+    color: #d21f46;
+}
+
+.m-filter .filter {
+    overflow: hidden;
+    position: relative;
+}
+.favlist .result {
+    margin-bottom: 20px;
+}
+.favlist .good {
+    float: left;
+    position: relative;
+    width: 172px;
+    height: 268px;
+    margin: 0 12px 15px 0;
+    background-color: #fff;
+    border: 1px solid #eaeaea;
+    overflow: hidden;
+    font-size: 12px;
+}
+.favlist .good .img {
+    position: relative;
+    overflow: hidden;
+}
+.favlist .good .imgw {
+    display: block;
+    color: #333;
+    -webkit-transition: opacity 0.2s ease;
+    transition: opacity 0.2s ease;
+}
+.favlist .good img {
+    display: block;
+    width: 172px;
+    height: 172px;
+}
+.favlist .activityflag {
+    position: absolute;
+    top: 6px;
+    left: 6px;
+    right: 6px;
+    height: 22px;
+    margin-left: -4px;
+}
+.favlist .good .imgbarlst.z-hover {
+    bottom: -24px;
+    -webkit-transition: bottom 0.2s ease-in-out;
+    transition: bottom 0.2s ease-in-out;
+}
+.favlist .good .imgbarlst {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 24px;
+    line-height: 24px;
+    text-align: center;
+    color: #fff;
+    font-size: 12px;
+    cursor: pointer;
+    background-color: rgba(0,0,0,0.5);
+}
+.favlist .good .imgbarlst .l,
+.favlist .good .imgbarlst .r,
+.favlist .good .imgbarlst .all {
+    position: absolute;
+    width: 50%;
+    border-left: 1px solid #fff;
+    margin-left: -1px;
+    color: #fff;
+}
+.favlist .good .imgbarlst .add2cart {
+    background-color: #e31436;
+}
+.favlist .good .imgbarlst .add2cart a{
+    color: #DDDDDD;
+}
+.favlist .good .imgbarlst .l {
+    left: 0;
+}
+.favlist .good .imgbarlst .r {
+    left: 50%;
+}
+.favlist .good .desc {
+    width: 152px;
+    padding: 2px 10px 0;
+    margin: 0 auto;
+}
+.favlist .good .title {
+    line-height: 18px;
+    height: 36px;
+    overflow: hidden;
+    padding-bottom: 0;
+    border-bottom: none;
+    font-size: 12px;
+    font-weight: normal;
+}
+.favlist .good .title a {
+    color: #333;
+}
+.favlist .good .price {
+    height: 24px;
+    margin-top: 5px;
+    color: #e31436;
+}
+.favlist .price .cur {
+    display: inline-block;
+    margin-right: 2px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 24px;
+    vertical-align: top;
+}
+.favlist .combinedLabel {
+    display: inline-block;
+    margin-left: 3px;
+    padding: 0 4px;
+    border: 1px dotted #e31436;
+    font-size: 12px;
+    color: #e31436;
+    font-weight: bold;
+    line-height: 18px;
+}
+.favlist .good del, .favlist .good .comments {
+    float: left;
+    display: inline-block;
+    margin-right: 8px;
+    color: #999;
+    font-weight: 300;
+}
+.favlist .good del, .favlist .good .comments {
+    float: left;
+    display: inline-block;
+    margin-right: 8px;
+    color: #999;
+    font-weight: 300;
+}
+.glyphicon-trash{
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    font-size: 18px;
+    color: red;
+    display: none;
+}

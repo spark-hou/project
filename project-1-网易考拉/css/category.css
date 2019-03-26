@@ -1,0 +1,588 @@
+/*public*/
+
+.fool {
+    background-color: #F6F6F6;
+}
+
+
+/*<!--面包屑导航--*/
+.bread {
+    border-radius: 0;
+}
+
+.bread .breadcrumb {
+    padding-top: 10px;
+    margin-bottom: 0;
+    position: relative;
+    display: inline-block;
+}
+
+.bread .breadcrumb a {
+    color: #333;
+    font-size: 12px;
+}
+
+.bread .breadcrumb > .active {
+    color: #333;
+    font-size: 12px;
+}
+
+.bread .input-group {
+    width: 105px;
+    position: absolute;
+    right: -110px;
+    top: 5px;
+    border-radius: 0;
+    border: 1px solid #CCCCCC;
+}
+
+.bread .relative {
+    display: inline-block;
+}
+
+.bread .input-group > span {
+    font-size: 12px;
+    background-color: white;
+    padding: 0;
+    border: none;
+    color: #E8E8E8;
+    height: 25px;
+    border-radius: 0;
+    border-bottom: 1px solid #CCCCCC;
+}
+
+.bread .input-group .form-control {
+    width: 136px;
+    height: 27px;
+    font-size: 12px;
+    border: none;
+    outline: none;
+}
+
+.bread .num {
+    height: 22px;
+    display: inline-block;
+    font-size: 12px;
+}
+
+.bread .num {
+    position: absolute;
+    height: 22px;
+    display: inline-block;
+    font-size: 12px;
+    line-height: 24px;
+    color: #999;
+    top: 8px;
+    right: -233px;
+
+}
+
+.bread .num > span {
+    color: #e31436
+}
+
+/*<!--分类表格-->*/
+.classify-list .container {
+    border: 1px solid #EAEAEA;
+
+}
+
+.classify-list {
+    padding-bottom: 10px;
+}
+
+.classify-list .list {
+    background-color: #F8F8F8;
+    border-bottom: 1px dotted #EAEAEA;
+}
+
+.classify-list .list .title {
+    float: left;
+    font-size: 12px;
+    line-height: 12px;
+    width: 105px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    background-color: #F8F8F8;
+    padding: 10px 0 0 18px;
+    height: 100%;
+}
+
+.classify-list .list .title > i {
+    font-size: 12px;
+    color: #cbcbcb;
+    margin-right: 5px;
+}
+
+.classify-list .list .part2 {
+    position: relative;
+    float: left;
+    width: 983px;
+    display: block;
+    padding: 10px 0 0px 18px;
+    background-color: white;
+}
+
+.classify-list .list .part3 {
+    width: 843px;
+    overflow: hidden;
+    font-size: 12px;
+    height: 24px;
+    position: relative;
+}
+.classify-list .list .part3 a.active{
+    border: 1px solid red;
+}
+
+.sure-can {
+    position: absolute;
+    top: 40px;
+    left: 370px;
+}
+
+.sure-can button {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.sure-can .sure {
+    background-color: red;
+    color: white;
+    outline: none;
+    border: 1px solid red;
+}
+.sure-can .cancel{
+    background-color: white;
+    color: black;
+    outline: none;
+    border: 1px solid grey;
+}
+
+.classify-list .list .part3 > a {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 18px;
+    margin-bottom: 4px;
+    padding: 3px 5px;
+    width: 120px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.classify-list .list .part2 > .show {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    font-size: 12px;
+    color: #333;
+    text-decoration: none;
+}
+
+.classify-list .list .part2 > .show:hover {
+    color: #E31436;
+}
+
+.classify-list .list .part2 > .more-pick {
+    position: absolute;
+    top: 10px;
+    right: 30px;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+}
+
+.classify-list .list .part2 > .choose {
+    text-decoration: none;
+    border: 1px solid #ddd;
+    padding: 3px 5px;
+    line-height: 12px;
+    font-size: 12px;
+    margin: 0 0 4px 20px;
+    cursor: pointer;
+    color: #333;
+    display: inline-block;
+}
+
+.classify-list .list .part2 > .choose:hover {
+    border: 1px solid #AAAAAA;
+}
+
+.classify-list .list4 .part2 {
+    height: 40px;
+    position: relative;
+}
+
+.classify-list .list4 .part2 .choose-box {
+    width: 1088px;
+    position: absolute;
+    top: 30px;
+    left: -105px;
+    background-color: white;
+    border: 1px solid #AAAAAA;
+    z-index: 10;
+    padding: 5px 10px;
+    display: none;
+}
+
+.classify-list .list4 .part2 .choose-box > a {
+    float: left;
+    box-sizing: border-box;
+    margin-right: 18px;
+    margin-bottom: 4px;
+    padding: 3px 5px;
+    width: 120px;
+    border: 1px solid transparent;
+    font-size: 12px;
+    line-height: 12px;
+    display: inline-block;
+    text-decoration: none;
+    color: #333;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+.classify-list .list4 .part2 .choose-box .more-pick {
+    position: absolute;
+    top: 7px;
+    right: 30px;
+    padding: 0 5px;
+    height: 20px;
+    line-height: 20px;
+    color: #333;
+    font-size: 12px;
+    border: 1px solid #ddd;
+    text-decoration: none;
+}
+
+/*<!--order-->*/
+.order {
+    padding-bottom: 15px;
+}
+
+.order .bar {
+    background-color: white;
+    border: 1px solid #EAEAEA;
+}
+
+.order .bar .nav-pills > li > a,
+.order .bar .nav-pills > li > a:focus,
+.order .bar .nav-pills > li > a:hover {
+    color: #333;
+    border-right: 1px solid #EAEAEA;
+    background-color: white;
+    border-radius: 0;
+    font-size: 13px;
+}
+
+.order .bar .nav-pills > li.active > a,
+.order .bar .nav-pills > li.active > a:focus,
+.order .bar .nav-pills > li.active > a:hover {
+    color: #E31436;
+    border: 1px solid #E31436;
+    background-color: white;
+    border-radius: 0;
+}
+
+.order .bar .input-group-two {
+    width: 100px;
+    line-height: 18px;
+    padding-left: 4px;
+    height: 40px;
+    margin-left: 10px;
+    position: relative;
+    padding-top: 10px;
+    padding-right: 10px;
+}
+
+.order .bar .input-group-two input {
+    display: inline-block;
+    width: 34px;
+    height: 20px;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 4px;
+    border: 1px solid #ddd;
+    margin-right: 2px;
+}
+
+.order .bar .input-group-two:hover .button-group {
+    display: block;
+}
+
+.order .bar .input-group-two .button-group {
+    position: absolute;
+    top: 30px;
+    left: -10px;
+    width: 107px;
+    padding-top: 17px;
+    padding-bottom: 10px;
+    background-color: white;
+    border: 1px solid #DDDDDD;
+    border-top: 0;
+    z-index: 50;
+    display: none;
+}
+
+.order .bar .input-group-two .button-group button {
+    line-height: 16px;
+    margin-left: 5px;
+    padding: 2px 8px;
+    border-radius: 3px;
+    color: #fff;
+    background: #e31436;
+    border: 0;
+    cursor: pointer;
+}
+
+.order .bar .input-group-two .button-group .btn1 {
+    border: none;
+    background-color: white;
+    font-size: 12px;
+    color: #51b8f1;
+    outline: none;
+}
+
+.order .bar .place {
+    line-height: 40px;
+    font-size: 12px;
+    float: left;
+    height: 40px;
+    display: block;
+    padding-right: 5px;
+}
+
+/*省市区三级联动*/
+.pick-area {
+    display: inline-block;
+    margin-top: 5px;
+    float: left;
+}
+
+.pick-area .a {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.pick-area .a a {
+    float: left;
+    margin: 10px;
+}
+
+.pick-area .a input {
+    float: left;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    outline-color: gold;
+}
+
+.pick-area .blank {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: cyan;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
+
+.pick-area .blank2 {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: lightpink;
+    border-top: 1px solid #333;
+    padding-top: 50px;
+}
+
+.pick-area .box {
+    width: 100%;
+    overflow: hidden;
+    background: lightgreen;
+}
+
+/*<!--商品列表-->*/
+.sell-list li {
+    width: 262px;
+    float: left;
+    background-color: white;
+    margin: 0 5px;
+    -webkit-transition: all 0.2s;
+    -moz-transition: all 0.2s;
+    -ms-transition: all 0.2s;
+    -o-transition: all 0.2s;
+    transition: all 0.2s;
+    position: relative;
+    border: 1px solid white;
+    margin-bottom: 10px;
+}
+
+.sell-list li .main-img {
+    width: 232px;
+    height: 232px;
+    margin: 10px auto;
+    display: block;
+    position: relative;
+}
+
+.sell-list li .main-img .tips {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    width: 105px;
+    height: 100px;
+    display: block;
+}
+
+.sell-list li .main-img .hot-sell {
+    width: 36px;
+    height: 18px;
+    line-height: 18px;
+    margin-left: 4px;
+    font-size: 12px;
+    color: #fff;
+    text-align: center;
+    background-color: #ff8385;
+    position: absolute;
+    top: 10px;
+    right: 0;
+}
+
+.sell-list li .main-img img {
+    width: 232px;
+    height: 232px;
+    display: block;
+}
+
+.sell-list li .img-list {
+    padding: 0 12px 14px 12px;
+}
+
+.sell-list li .img-list img {
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    border: 1px solid #DDDDDD;
+}
+
+.sell-list li .img-list img.active {
+    border: 1px solid #e31436;
+}
+
+.sell-list li .price {
+    padding: 0 12px 10px 12px;
+    color: #999;
+    font-size: 12px;
+}
+
+.sell-list li .price span {
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 24px;
+    color: #e31436;
+    display: inline-block;
+    padding-right: 5px;
+}
+
+.sell-list li .title {
+    padding: 0 12px 10px 12px;
+    display: block;
+    overflow: hidden;
+    height: 20px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 100%;
+    font-weight: normal;
+    color: #333;
+}
+
+.sell-list li .saelsinfo {
+    padding: 0 12px 10px 12px;
+}
+
+.sell-list li .saelsinfo span {
+    background-color: #e31436;
+    display: inline-block;
+    height: 16px;
+    line-height: 16px;
+    padding: 0 3px;
+    margin-right: 4px;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 12px;
+    border-radius: 2px
+}
+
+.sell-list li .saelsinfo .z-sell {
+    color: #e31436;
+    background-color: white;
+    border: 1px solid #e31436;
+}
+
+.sell-list li .goods-info {
+    padding: 0 12px 10px 12px;
+}
+
+.sell-list li .goods-info .comments {
+    color: #333;
+    font-weight: 700;
+}
+
+.sell-list li .goods-info {
+    color: #999;
+}
+
+.sell-list li .selfflag {
+    padding: 0 12px 10px 12px;
+}
+
+.sell-list li .selfflag span {
+    color: #999;
+    font-size: 12px;
+}
+
+.sell-list li:hover {
+    border: 1px solid #e31436;
+}
+
+/*<!--分页-->*/
+.pagination > .active > a,
+.pagination > .active > a:focus,
+.pagination > .active > a:hover,
+.pagination > .active > span,
+.pagination > .active > span:focus,
+.pagination > .active > span:hover {
+    z-index: 3;
+    color: #fff;
+    cursor: default;
+    background-color: #FF2953;
+    border-color: #FF2953;
+}
+
+.pagination > li > a, .pagination > li > span {
+    color: #333;
+}
+
+.page .container {
+    text-align: center;
+}
+
+.page .pagination {
+    display: inline-block;
+    margin: 5px auto;
+    height: 34px;
+}

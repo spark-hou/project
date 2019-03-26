@@ -1,0 +1,134 @@
+.m-couponlist-wrap .title {
+    padding-bottom: 20px;
+    line-height: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #191e1f;
+}
+
+.coupon-use {
+    height: 122px;
+    padding-top: 40px;
+    margin-bottom: 40px;
+    border: 1px solid #eee;
+    background-color: #f7f7f7;
+    color: #333;
+    font-size: 18px;
+}
+.coupon-use .box {
+    margin: 0 auto;
+    height: 40px;
+    width: 550px;
+}
+.coupon-use .couponkey {
+    margin: 0 5px;
+    padding: 5px 10px;
+    width: 278px;
+    height: 40px;
+    border: 1px solid #eee;
+}
+.btn-red40 {
+    width: 120px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    vertical-align: -1px;
+}
+.btn-red30,
+.btn-gray30,
+.btn-red34,
+.btn-gray34,
+.btn-red40,
+.btn-red-s,
+.btn-red-m {
+    color: #fff;
+    text-align: center;
+    background-color: #d12046;
+    border: 0 none;
+    cursor: pointer;
+}
+.coupon-list {
+    margin-bottom: 30px;
+}
+.vividSlideTab {
+    margin-top: -20px;
+    height: 70px;
+}
+.vividSlideTab ul{
+    width: 510px;
+    margin-bottom: 20px;
+}
+.vividSlideTab .active {
+    color: #e31436 !important;
+}
+.vividSlideTab .tab {
+    width: 170px;
+    padding: 20px 0;
+    height: 27px;
+    line-height: 27px;
+    text-align: center;
+    float: left;
+    font-weight: bold;
+    font-size: 18px;
+    color: #191e1f;
+    cursor: pointer;
+}
+.vividSlideTab .slideWrap {
+    height: 1px;
+    font-size: 0;
+    border-bottom: 1px solid #ccc;
+}
+.couponTypeTab ul {
+    background-color: #f8f8f8;
+    padding: 8px 0px 27px 6px;
+    margin-top: 20px;
+    height: 20px;
+}
+.couponTypeTab .tab {
+    width: 81px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 14px;
+    color: #151515;
+    text-align: center;
+    float: left;
+    cursor: pointer;
+}
+.couponTypeTab .active {
+    font-weight: bold;
+}
+.tbl-nodata {
+    width: 370px;
+    margin: 60px auto;
+}
+
+.tbl-nodata .info {
+
+    float: left;
+    margin-left: 30px;
+    line-height: 150px;
+    font-size: 14px;
+
+}
+.cr-desc .title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #191e1f;
+    padding-bottom: 14px;
+    border-bottom: 1px solid #ddd;
+}
+.cr-desc ul, .cr-desc a.detail {
+    line-height: 20px;
+    margin-left: 16px;
+}
+.cr-desc ul {
+    margin-top: 15px;
+    color: #999;
+    list-style-type: disc;
+}
+.cr-desc a.detail {
+    color: #d22046;
+}
+.cr-desc ul p {
+    color: #333;
+}

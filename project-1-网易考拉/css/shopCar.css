@@ -1,0 +1,493 @@
+/*public*/
+p {
+    padding: 0;
+    margin: 0;
+}
+
+i {
+    font-style: normal;
+}
+
+.guess-like {
+    background-color: white;
+}
+
+.cartbox .m-mycart {
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.cartbox .m-mycart .all-num {
+    position: relative;
+    top: -1px;
+    font-weight: 700;
+}
+
+.cartbox .m-mycart .place {
+    position: relative;
+    display: inline-block;
+    top: -3px;
+    white-space: nowrap;
+    font-size: 12px;
+    margin-left: 10px;
+    float: right;
+    line-height: 37px;
+    height: 37px;
+}
+.cartbox .m-mycart .place .relative{
+    display: inline-block;
+
+}
+.city-picker-span {
+    overflow: hidden;
+}
+.city-picker-dropdown {
+    white-space:pre-wrap;
+}
+.cartbox .m-mycart .place .city-picker{
+    width: 173px;
+}
+.city-picker-span,
+.city-picker-span.focus,
+.city-picker-span.open {
+    border-bottom:none;
+}
+.cartbox .m-mycart .place i {
+    font-style: normal;
+    vertical-align: 18px;
+    height: 37px;
+    display: inline-block;
+    line-height: 37px;
+}
+
+/*省市区三级联动*/
+.pick-area {
+    display: inline-block;
+    margin-top: 5px;
+    vertical-align: middle;
+}
+
+.pick-area .a {
+    float: left;
+    width: 100%;
+    margin: 10px;
+}
+
+.pick-area .a a {
+    float: left;
+    margin: 10px;
+}
+
+.pick-area .a input {
+    float: left;
+    width: 400px;
+    padding: 10px;
+    margin: 10px;
+    outline-color: gold;
+}
+
+.pick-area .blank {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: cyan;
+    border-top: 1px solid #333;
+    margin-top: 50px;
+}
+
+.pick-area .blank2 {
+    float: left;
+    width: 50%;
+    height: 400px;
+    background: lightpink;
+    border-top: 1px solid #333;
+    padding-top: 50px;
+}
+
+.pick-area .box {
+    width: 100%;
+    overflow: hidden;
+    background: lightgreen;
+}
+
+.m-carBox {
+    font-size: 14px;
+    color: #333;
+    line-height: 32px;
+    margin-top: 15px;
+    font-weight: 400;
+}
+
+.m-carBox .head {
+    color: #999;
+    border: 1px solid #eaeaea;
+    height: 34px;
+    line-height: 34px;
+}
+
+.m-carBox .head .col {
+    float: left;
+    padding: 0 10px;
+}
+
+.m-carBox .head .col-1 {
+    width: 114px;
+}
+
+.cartbox .checkbox {
+    outline: none;
+    border: none;
+    margin: -6px 10px 0 12px;
+    height: 18px;
+    width: 17px;
+    -webkit-appearance: none;
+    display: inline-block;
+    background: url("../img/shopCar/checkbox.png") no-repeat 0 -24px;;
+}
+
+.cartbox .checkbox:checked {
+    border: none;
+    background-position: 0 0;
+}
+
+.cartbox .checkbox:focus {
+    outline: none;
+    border: none;
+}
+
+.m-carBox .col-1 span {
+    color: #000;
+    display: inline-block;
+
+}
+
+.m-carBox .col-2 {
+    width: 402px;
+}
+
+.m-carBox .col-3 {
+    width: 130px;
+}
+
+.m-carBox .col-4 {
+    width: 127px;
+}
+
+.m-carBox .col-5 {
+    width: 185px;
+}
+
+.m-carBox .col-6 {
+    width: 93px;
+    padding: 0 7px;
+    text-align: left;
+}
+
+.m-carBox .m-cart {
+    position: relative;
+    margin-top: 15px;
+    color: #333;
+    border: 1px solid #eaeaea;
+}
+
+.m-carBox .m-cart .ware {
+    padding: 7px 0 8px 10px;
+    font-size: 14px;
+    font-weight: 700;
+    color: #333;
+}
+
+.m-carBox .m-cart .ware .warename {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+}
+
+.m-carBox .m-cart .ware .warename a {
+    color: #333;
+}
+
+
+.m-carBox .m-cart .goods .actitm {
+    margin-top: 0;
+    position: relative;
+    border-top: 1px solid #eaeaea;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.m-carBox .m-cart .goods .actitm .gooditm {
+    padding: 20px 0;
+    position: relative;
+    border: 0;
+}
+
+.goods .gooditm .col {
+    float: none;
+    display: table-cell;
+    padding: 0 10px;
+    vertical-align: top;
+}
+
+.goods .gooditm .col0 {
+    padding-right: 0;
+    width: 37px;
+    position: relative;
+    z-index: 100;
+    vertical-align: middle;
+}
+
+.goods .gooditm .col2 {
+    padding: 0;
+    width: 473px;
+}
+
+.goods .gooditm .col2::after {
+    content: "";
+    display: block;
+    clear: both;
+}
+
+.goods .gooditm .col2 .imgwrap {
+    float: left;
+    position: relative;
+    width: 80px;
+    height: 80px;
+    overflow: hidden;
+}
+
+.goods .gooditm .col2 .txtwrap {
+    margin-left: 15px;
+    width: 220px;
+    padding-right: 30px;
+    float: left;
+}
+
+.goods .gooditm .col2 .txtwrap .goodtlt {
+    height: 36px;
+    line-height: 18px;
+    overflow: hidden;
+    margin-top: -2px;
+    font-weight: 400;
+    color: #333;
+    font-size: 12px;
+    display: block;
+}
+
+.goods .gooditm .col2 .txtwrap .returninfo {
+    color: #999;
+    height: 26px;
+    padding-top: 2px;
+    margin-bottom: 2px;
+    overflow: hidden;
+    word-wrap: normal;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    font-size: 12px;
+}
+
+.goods .gooditm .col2 .txtwrap .returninfo img {
+    height: 14px;
+    vertical-align: middle;
+    display: inline-block;
+    border: 0;
+}
+
+.goods .gooditm .col2 .txtwrap .returninfo .z-error {
+    vertical-align: middle;
+    color: #666;
+}
+
+.goods .gooditm .col2 .txtwrap .goodtax {
+    line-height: 22px;
+    white-space: nowrap;
+}
+
+.goods .gooditm .col3 {
+    width: 88px;
+}
+
+.goods .gooditm .col3 .oldprice {
+    color: #999;
+    display: block;
+    text-align: left;
+}
+
+.goods .gooditm .col3 .newprice {
+    font-weight: 700;
+    font-size: 14px;
+    color: #333;
+    display: block;
+    text-align: left;
+}
+
+.goods .gooditm .col4 {
+    width: 113px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.goods .gooditm .col4 .u-setcount {
+    display: inline-block;
+    background-color: #fff;
+}
+
+.goods .gooditm .col4 .minus,
+.goods .gooditm .col4 .plus {
+    float: left;
+    width: 20px;
+    height: 20px;
+    font-size: 19px;
+    line-height: 17px;
+    text-align: center;
+    cursor: pointer;
+    text-decoration: none;
+    border: 1px solid #bcbcbc;
+}
+
+.goods .gooditm .col4 input {
+    float: left;
+    width: 43px;
+    height: 20px;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #bcbcbc;
+}
+
+.goods .gooditm .col4 .dis {
+    cursor: not-allowed;
+    color: #bcbcbc;
+    border-color: #bcbcbc;
+}
+
+.goods .gooditm .col5 {
+    width: 180px;
+    vertical-align: middle;
+}
+
+.goods .gooditm .col5 .sum {
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    text-align: center;
+}
+
+.goods .gooditm .col5 .u-taxval {
+    display: block;
+    text-align: center;
+    padding: 0 3px;
+    height: 17px;
+    line-height: 17px;
+    font-size: 12px;
+    color: #ccc;
+    vertical-align: middle;
+}
+
+.goods .gooditm .col6 {
+    vertical-align: middle;
+    padding-left: 70px;
+}
+
+.goods .gooditm .col6 .del,
+.goods .gooditm .col6 .u-opt {
+    display: block;
+    color: #333;
+    cursor: pointer;
+    line-height: 25px;
+    height: 25px;
+}
+
+.m-cart .cartinfo {
+    padding: 10px 43px 10px 20px;
+    text-align: right;
+    white-space: nowrap;
+}
+
+.m-cart .cartinfo .discount {
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+}
+
+.m-cart .cartinfo .allsum {
+    position: relative;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 12px;
+}
+.m-cart .cartinfo .taxbox{
+    display: inline-block;
+    position: relative;
+    font-size: 12px;
+}
+.cartbox .totalbox{
+    min-height: 62px;
+    position: relative;
+    margin-top: 35px;
+}
+.cartbox .totalbox .m-total{
+    position: relative;
+    bottom: 0;
+    width: 1088px;
+    min-width: 820px;
+    z-index: 101;
+    border: 1px solid #eaeaea;
+}
+.cartbox .totalbox .m-total .ttbar{
+    height: 56px;
+    line-height: 44px;
+    padding: 10px;
+    position: relative;
+    background-color: #f8f8f8;
+    font-size: 12px;
+}
+.cartbox .totalbox .m-total .ttbar .lt input{
+    margin: -6px 10px 0 12px;
+}
+.cartbox .totalbox .m-total .ttbar .lt .lab{
+    color: #000;
+}
+.cartbox .totalbox .m-total .ttbar .lt b{
+    cursor: pointer;
+    margin-left: 20px;
+}
+.cartbox .totalbox .m-total .ttbar .rt{
+    padding-right: 140px;
+    line-height: 20px;
+    text-align: right;
+}
+.cartbox .totalbox .m-total .ttbar .rt .num{
+    color: #e31436;
+    font-weight: 700;
+    font-size: 18px;
+    font-style: normal;
+}
+.cartbox .totalbox .m-total .ttbar .rt .allgoods .itm{
+    margin-left: 20px;
+}
+.cartbox .totalbox .m-total .ttbar .rt .allmoney{
+    color: #999;
+}
+.cartbox .totalbox .m-total .ttbar .rt .allmoney .itm{
+    margin-left: 20px;
+}
+.cartbox .totalbox .m-total .ttbar .rt .gobuy{
+    position: absolute;
+    right: -1px;
+    top: -1px;
+    bottom: 0;
+    width: 120px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #e31436;
+    color: #fff;
+    font-size: 18px;
+    cursor: pointer;
+}
+.cartbox .totalbox .m-total .ttbar .rt .gobuy.dis{
+    background-color: #ccc;
+    color: #fff;
+    cursor: not-allowed;
+}

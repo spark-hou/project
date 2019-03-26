@@ -1,0 +1,518 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="./lib/bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./lib/swiper-4.5.0/css/swiper.min.css">
+    <!--头尾模板-->
+    <link rel="stylesheet" href="./css/header-footer.css">
+    <link rel="stylesheet" href="./lib/city-pick/css/city-picker.css">
+    <!--本页css-->
+    <link rel="stylesheet" href="./css/order.css">
+</head>
+<body>
+<div class="header">
+    <div class="user-info">
+        <div class="container clearfix">
+            <div class="pull-left">
+                <span>考拉欢迎你！</span>
+                <a href="">登陆</a>
+                <a href="">免费注册</a>
+                <a href="">手机考拉</a>
+            </div>
+            <div class="pull-right">
+                <a href="">每日签到</a>
+                <a href="">我的订单</a>
+                <!--个人中心-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1">
+                        个人中心
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+                        <li><a href="#">我的优惠券</a></li>
+                        <li><a href="#">我的红包</a></li>
+                        <li><a href="#">我的考拉豆</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">账号管理</a></li>
+                        <li><a href="#">我的实名认证</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">我收藏的商品</a></li>
+                        <li><a href="#">我关注的品牌</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">售后管理</a></li>
+                    </ul>
+                </div>
+                <!--客户服务-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu2">
+                        客户服务
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu2">
+                        <li><a href="#">联系客服</a></li>
+                        <li><a href="#">帮助中心</a></li>
+                        <li><a href="#">知识产权保护</a></li>
+                        <li><a href="#">规则中心</a></li>
+                    </ul>
+                </div>
+                <!--充值中心-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu3">
+                        充值中心
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu3">
+                        <li><a href="#">话费流量</a></li>
+                        <li><a href="#">游戏充值</a></li>
+                        <li><a href="#">AppStore充值卡</a></li>
+                    </ul>
+                </div>
+                <!--消费者权益-->
+                <div class="dropdown">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu4">
+                        消费者权益
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <li><a href="#">消费者告知书</a></li>
+                        <li><a href="#">消费投诉公社</a></li>
+                    </ul>
+                </div>
+                <!--more-->
+                <div class="dropdown hover-qr">
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu5">
+                        更多
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" aria-labelledby="dropdownMenu4">
+                        <li><a href="#">收藏本站</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">新浪微博</a></li>
+                        <li><a href="#">微信公众号</a></li>
+                        <li><a href="#">易信公众号</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">招商合作</a></li>
+                        <li><a href="#">考拉招聘</a></li>
+
+                    </ul>
+                    <!--隐藏显示二维码-->
+                    <div class="show-qr">
+                        <img src="./img/header-footer/qr-21.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--第二行-logo和搜索-->
+    <div class="logo-search">
+        <div class="container clearfix">
+            <div class="pull-left logo">
+                <a href="">
+                    <img src="./img/header-footer/logo-big.png" alt="">
+                </a>
+            </div>
+            <!--<div class="pull-left search-input">-->
+            <!--<div class="relative input-box">-->
+            <!--<span class="glyphicon glyphicon-search color-grey"></span>-->
+            <!--<input type="search" placeholder="艾维诺沐浴露">-->
+            <!--<a href="">-->
+            <!--<span class="glyphicon glyphicon-search color-white"></span>-->
+            <!--</a>-->
+            <!--</div>-->
+            <!--<div class="recommend">-->
+            <!--<a href="">面膜</a>-->
+            <!--<a href="">口红</a>-->
+            <!--<a href="">减肥</a>-->
+            <!--<a href="">全球工厂店</a>-->
+            <!--<a href="">运动鞋</a>-->
+            <!--<a href="">项链</a>-->
+            <!--<a href="">女包</a>-->
+            <!--</div>-->
+            <!--</div>-->
+            <!--<div class="pull-left shop-car">-->
+            <!--<a href="">-->
+            <!--<img src="./img/header-footer/shopcar.png" alt="">-->
+            <!--购物车-->
+            <!--</a>-->
+            <!--</div>-->
+        </div>
+    </div>
+</div>
+<!-----------------------------------------正文部分------------------------------->
+<div class="fool-1">
+    <div class="container">
+        <h2 class="u-mntlt"><strong>选择收货地址</strong></h2>
+    </div>
+</div>
+<div class="fool-2">
+    <div class="container">
+        <div class="m-myaddress">
+            <div class="item item-1 clearfix">
+                <span class="item-label"> <i>*</i>所在地区</span>
+                <div class="pull-left relative">
+                    <input readonly type="text" data-toggle="city-picker" value="山东省/青岛市/城阳区">
+                </div>
+            </div>
+            <div class="item item-2 clearfix">
+                <span class="item-label"> <i>*</i>详细地址</span>
+                <textarea name="" id="" cols="30" rows="10" class="necessary"></textarea>
+            </div>
+            <div class="item item-3 clearfix">
+                <span class="item-label"> <i>*</i>收货人姓名</span>
+                <input  type="text" class="item-input necessary" placeholder="不能为昵称、X先生、X小姐等，请使用真实姓名">
+            </div>
+            <div class="item item-4 clearfix">
+                <span class="item-label"> <i>*</i>手机号码</span>
+                <input type="text" class="item-input necessary" placeholder="手机号码、电话号码必须填一项">
+            </div>
+            <div class="item item-5 clearfix">
+                <span class="item-label">电话</span>
+                <input type="text" class="item-input i1" placeholder="区号">
+                <i>-</i>
+                <input type="text" class="item-input i2" placeholder="电话号码">
+                <i>-</i>
+                <input type="text" class="item-input i3" placeholder="分机号（可选）">
+            </div>
+            <div class="item item-6 clearfix">
+                <span class="item-label">邮箱</span>
+                <input type="text" class="item-input" placeholder="接受订单提醒邮件，便于您及时了解订单状态">
+            </div>
+            <div class="item-bottom clearfix">
+                <button class="item-submit save">保存新地址</button>
+                <button class="item-submit changePlace" >修改地址</button>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="fool-3">
+    <div class="container">
+        <div class="address clearfix">
+            <div class="content content1">
+                <div class="title clearfix">
+                    <span><i>232424</i>收</span>
+                    <b>默认地址</b>
+                </div>
+                <div class="place">
+                    <span>山东省/青岛市/市北区</span>
+                    <i>盈园国际</i>
+                    <b>155****5555</b>
+                </div>
+                <span class="opspan">
+                    <a href="" class="change">修改</a>
+                    <a href="" class="del">删除</a>
+                </span>
+                <span class="default">
+                   设为默认
+                </span>
+            </div>
+        </div>
+        <div class="add">
+            <span class="addNewAddr">+新增收货地址</span>
+        </div>
+    </div>
+</div>
+<div class="fool-4">
+    <div class="container">
+        <h2 class="u-mntlt">
+            <strong>确认商品信息</strong>
+        </h2>
+        <div class="oShowCon">
+            <div class="thead clearfix">
+                <span class="col col1">商品信息</span>
+                <span class="col col2">重量(千克)</span>
+                <span class="col col3">单价(元)</span>
+                <span class="col col4">数量</span>
+                <span class="col col5">金额(元)</span>
+            </div>
+            <div class="m-warebox">
+                <div class="region"><h4 class="regionname">自营保税仓</h4>
+                </div>
+                <div class="packinfo clearfix">
+                  <span class="pull-left">
+                      <i class="glyphicon glyphicon-time"></i><em class="">以下商品预计送达时间：2019-03-23</em>
+                  </span>
+                </div>
+                <div class="m-goodstbl ">
+                    <div class="tbody">
+                        <ul class="glst">
+                            <li class="goodsitm clearfix">
+                                <div class="col col1">
+                                    <span class="imgwrap pull-left"><img src="./img/order/p1.jpg" alt=""></span>
+                                    <div class="ttwrap pull-left">
+                                        <p class="f-vama clearfix">
+                                            <span class="name pull-left">Kao 花王 Curél珂润润浸保湿洁颜泡沫 150毫升 任何肤质都hold住</span>
+                                        </p>
+                                        <p class="returninfo pull-left">
+                                            <span class="m-label-box">
+                                                <img src="./img/order/p2.png" alt="">
+                                                <span class="">过敏无忧</span>
+                                            </span>
+                                            <span class="m-label-box">
+                                                <img src="./img/order/p2.png" alt="">
+                                                <span class="">破损无忧</span>
+                                            </span>
+                                            <span class="m-label-box">
+                                                <img src="./img/order/p3.png" alt="">
+                                                <span class="">支持7天无忧退货</span>
+                                            </span>
+                                        </p>
+                                    </div>
+                                    <div class="skudesc">
+                                        <p class="skuline" title="净含量：150毫升">净含量：150毫升</p>
+                                    </div>
+                                </div>
+                                <div class="col col2">0.25</div>
+                                <div class="col col3">
+                                    <p>75</p>
+                                    <i class="actLabel">特价</i>
+                                </div>
+                                <div class="col col4">1</div>
+                                <div class="col col5">
+                                    <div class="amountcol">
+                                        <em class="amount">75.00</em>
+                                    </div>
+                                </div>
+                            </li>
+                            <div class="goods-end"></div>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="infobox">
+            <div class="cell">
+                <div class="cellBody clearfix">
+                    <div class="couponGroup pull-left clearfix">
+                        <div class="label pull-left">商品券(0):</div>
+                        <span class="box pull-left">
+                            暂无可用优惠券
+                        </span>
+                    </div>
+                    <div class="couponGroup pull-left clearfix">
+                        <div class="label pull-left">运费券(0):</div>
+                        <span class="box pull-left">
+                            暂无可用优惠券
+                        </span>
+                    </div>
+                    <div class="couponGroup pull-left clearfix">
+                        <div class="label pull-left">税费券(0):</div>
+                        <span class="box pull-left">
+                            暂无可用优惠券
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="m-settlement">
+            <div class="cutbox">
+                <div class="m-redPacket">
+                    <input type="checkbox" disabled>
+                    <span>红包</span>
+                    <div class="colrt">
+                        暂无可用
+                    </div>
+                </div>
+            </div>
+            <div class="paybox clearfix">
+                <div class="invoicebox pull-left clearfix">
+                    <div class="title">
+                        <span class="pull-left">发票信息：</span>
+                        <span class="noInvoice">订单中所有商品均不支持开具发票</span>
+                    </div>
+                    <dl class="u-invoiceTip">
+                        <dt>发票须知：</dt>
+                        <dd>1. 保税仓发货商品与海外仓发货商品属跨境海外商品，无法开具国内发票</dd>
+                        <dd>2. 自2017年7月1日起，发票抬头选择公司（企业、有税号的非企业性单位和个体工商户）需提供纳税人识别号</dd>
+                        <dd>3. 自营国内仓商品(即苏州仓、佛山1号仓、天津1号仓、杭州1号仓与杭州2号仓的商品)支持开具电子发票，电子发票在确认收货后48小时内开具</dd>
+                        <dd>4. 杭州1号仓商品，若开具纸质发票，发票随包裹一起寄出</dd>
+                        <dd>5. 苏州仓、佛山1号仓、天津1号仓、杭州2号仓商品，若开具纸质发票，发票在确认收货后7-30天单独寄出</dd>
+                        <dd>6. 第三方商家若无法开具电子发票，则自动开纸质发票，商家发票以实际收到为准</dd>
+                        <dd>7. 如需增值税专用发票，请在购买后联系客服</dd>
+                        <dd>8. 礼品卡支付金额不支持开发票</dd>
+                        <dd><a href="">发票相关问题&gt;</a></dd>
+                    </dl>
+                </div>
+                <div class="amountbox pull-right">
+                    <div class="v-orderSubmit">
+                        <div class="numrow clearfix">
+                            <p class="tlt pull-left"><em>商品应付总计：</em></p>
+                            <p class="numval"><em>¥75.00</em></p>
+                        </div>
+                        <div class="numrow clearfix">
+                            <p class="tlt pull-left"><em>运费：</em></p>
+                            <p class="numval"><em>¥10.00</em></p>
+                        </div>
+                        <div class="numrow clearfix">
+                            <p class="tlt pull-left"><em>税费：</em></p>
+                            <p class="numval"><em>¥9.52</em></p>
+                        </div>
+                        <div class="numrow clearfix">
+                            <p class="tlt pull-left"><em>应付金额：</em></p>
+                            <p class="numval totalnum"><em>¥94.52</em></p>
+                        </div>
+                    </div>
+                    <div class="btnrow clearfix">
+                        <a class="z-submitbtn">提交订单</a>
+                        <span class="gotocart"><a href="shopCar.html">返回购物车修改</a></span>
+                    </div>
+                    <p class="addr">343433434 收　江苏省连云港市海州区　电话 155****5555</p>
+                </div>
+            </div>
+        </div>
+        <div class="m-agree">
+            <input type="checkbox" id="agree">
+            <label for="agree">本人同意并接受
+                <a class="wt" id="auto-id-1553005572432">《网易考拉服务协议》</a>
+                与
+                <a class="wt">《进口个人申报委托》</a>
+            </label>
+
+        </div>
+    </div>
+</div>
+
+<!--------------------------------------------footer-------------------------------->
+<div class="footer">
+    <!--滚动公告-->
+    <div class="notice">
+        <div class="container">
+            <!--滚动公告-->
+            <div class="txtScroll-top">
+                <div class="bd">
+                    <ul class="infoList">
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                        <li><a href="">
+                            <img src="./img/header-footer/footer-notice.png" alt="">
+                            <span class="title">关于《网易考拉会员权益规则》调整公开征集意见</span>
+                            <span class="content">原《网易考拉会员权益规则》较为分散现已重新整理汇总，于2019年3月4起至2019年3月10日止公开征集意见</span>
+                            <i class="glyphicon glyphicon-menu-right"></i>
+                        </a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!--正低退邮&#45;&#45;保障-->
+    <div class="container footer-index">
+        <img src="./img/header-footer/footer-index.png" alt="">
+    </div>
+    <!--新手指南-简介-->
+    <div class="guide">
+        <div class="container clearfix">
+            <div class="pull-left left-logo">
+                <a href="" class="big-logo"><img src="./img/header-footer/footer-logo.png" alt=""></a>
+                <div class="small-logo">
+                    <span>关注我们</span>
+                    <img src="./img/header-footer/footer-wb.png" alt="">
+                    <img src="./img/header-footer/footer-wx.png" alt="">
+                    <img src="./img/header-footer/footer-yx.png" alt="">
+                </div>
+            </div>
+            <div class="pull-left guide-list">
+                <dl>
+                    <dt>考拉保障</dt>
+                    <dd><a href="">假一赔十</a></dd>
+                    <dd><a href="">廉政监督</a></dd>
+                </dl>
+                <dl>
+                    <dt>新手指南</dt>
+                    <dd><a href="">购物流程</a></dd>
+                    <dd><a href="">支付方式</a></dd>
+                    <dd><a href="">通关税费</a></dd>
+                    <dd><a href="">常见问题</a></dd>
+                </dl>
+                <dl>
+                    <dt>售后服务</dt>
+                    <dd><a href="">退货政策</a></dd>
+                    <dd><a href="">退货流程</a></dd>
+                    <dd><a href="">退货说明</a></dd>
+                    <dd><a href="">联系客服</a></dd>
+                </dl>
+                <dl>
+                    <dt>物流配送</dt>
+                    <dd><a href="">配送方式</a></dd>
+                    <dd><a href="">配送服务</a></dd>
+                    <dd><a href="">运费标准</a></dd>
+                    <dd><a href="">物流跟踪</a></dd>
+                </dl>
+                <dl>
+                    <dt>关于我们</dt>
+                    <dd><a href="">联系我们</a></dd>
+                    <dd><a href="">合作招商</a></dd>
+                    <dd><a href="">销售联盟</a></dd>
+                    <dd><a href="">CEO邮箱</a></dd>
+                </dl>
+            </div>
+            <div class="qr pull-left">
+                <img src="./img/header-footer/footer-right-qr.png" alt="">
+            </div>
+        </div>
+    </div>
+    <!--底部的information-->
+    <div class="info">
+        <div class="container">
+            <div class="list list-1">
+                <a href="http://ir.netease.com/phoenix.zhtml?c=122303&p=irol-IRHome&no_protofix" target="_blank">About
+                    NetEase</a><span>-</span>
+                <a href="http://gb.corp.163.com/gb/about/overview.html?no_protofix"
+                   target="_blank">公司简介</a><span>-</span>
+                <a href="http://gb.corp.163.com/gb/contactus.html?no_protofix"
+                   target="_blank">联系方式</a><span>-</span>
+                <a href="//www.kaola.com/footer/friendlylink.shtml" target="_blank">友情链接</a><span>-</span>
+                <a href="http://hr.163.com/?no_protofix" target="_blank">招聘方式</a><span>-</span>
+                <a href="http://help.163.com/?no_protofix" target="_blank">客服信息</a><span>-</span>
+                <a href="" target="_blank">隐私政策</a><span>-</span>
+                <a href="" target="_blank">网络营销</a><span>-</span>
+                <a href="" target="_blank">网易考拉</a>
+            </div>
+            <div class="list list-2">
+                <span>网络文化经营许可证：浙网文[2016]0155-055号</span>
+                <span>增值电信业务经营许可证：浙B2-20160288</span>
+                <a href="//pages.kaola.com/pages/activity/Businessentity.shtml" target="_blank">自营经营者信息</a>
+                <span>（浙）网械平台备字[2018]第00007号</span>
+            </div>
+            <div class="list list-3">
+                <a href="http://www.beian.gov.cn/portal/registerSystemInfo?recordcode=33010802002216&no_protofix"
+                   target="_blank"><img src="./img/header-footer/footer-info-1.png" alt="">浙公网安备 33010802002216号</a>
+                <span>网易公司版权所有©1997-2019</span>
+                <a href="//haitao.nos.netease.com/d37ac4eb-016f-485b-9577-04ae7e0f4bbd.jpg" target="_blank">互联网药品信息服务资格证书编号（浙）-2017-0027</a>
+                <span>浙ICP备16011229号-6</span>
+            </div>
+            <div class="list list-4">
+                <a href="//credit.szfw.org/CX20170920030507330453.html" target="_blank"><img
+                        src="./img/header-footer/footer-info-2.png" alt=""></a>
+                <a href="https://ss.knet.cn/verifyseal.dll?sn=e15040881010058239iy2f000000&ct=df&a=1&pa=20160215"
+                   target="_blank"><img src="./img/header-footer/footer-info-3.png" alt=""></a>
+                <a href="http://idinfo.zjaic.gov.cn/bscx.do?method=lzxx&id=3301083301980000040550&no_protofix"
+                   target="_blank"><img src="./img/header-footer/footer-info-4.gif" alt=""></a>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="lib/jquery-3.3.1.min.js"></script>
+<script src="lib/bootstrap/js/bootstrap.min.js"></script>
+<script src="lib/SuperSlide2.1/jquery.SuperSlide.2.1.3.js"></script>
+<script src="lib/swiper-4.5.0/js/swiper.min.js"></script>
+<!--<script src="js/header-footer.js"></script>-->
+<!--本页js-->
+<script src="lib/city-pick/js/city-picker.data.js"></script>
+<script src="lib/city-pick/js/city-picker.js"></script>
+<script src="lib/layer/layer.js"></script>
+<script src="./js/href.js"></script>
+<script src="./js/order.js"></script>
+</body>
+
+</html>
