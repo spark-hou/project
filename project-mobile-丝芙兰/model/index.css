@@ -1,0 +1,14 @@
+/*public*/
+*{
+    box-sizing: border-box;
+
+}
+p,span,em,i,b{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+.container{
+    width: 100%;
+}

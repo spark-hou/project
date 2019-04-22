@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="../asset/lib/reset.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--头部浮动-->
+<div class="header header-back">
+    <img src="./img/back.png" alt="" class="logoImg">
+    <span>核对订单</span>
+    <div class="more">
+    </div>
+</div>
+<!--添加收货地址-->
+<div class="addAddress hide">
+    <p><img src='./img/position.png' alt=""> 您还没有收货地址哦，请点击新增吧~</p>
+    <i class="fa fa-angle-right"></i>
+</div>
+<div class="fool address">
+    <div class="content">
+        <div class="title">
+            <div class="name">
+                h先生
+            </div>
+            <div class="tel">
+                155****5948
+            </div>
+        </div>
+        <p><img src='./img/position.png' alt=""> <span>上海上海市黄浦区212131</span></p>
+    </div>
+    <i class="fa fa-angle-right"></i>
+</div>
+<!--商品列表-->
+<div class="fool good-list">
+    <div class="img-box">
+        <img src="./img/p1-1.jpg" alt="">
+    </div>
+    <p>共<span>1件</span> <i class="fa fa-angle-right"></i></p>
+</div>
+<!--支付方式-->
+<div class="fool payment">
+    <span>支付方式</span>
+    <p><span>在线支付</span> <i class="fa fa-angle-right"></i></p>
+</div>
+<!--配送时间-->
+<div class="fool time">
+    <span>配送时间</span>
+    <p><span>工作日、双休日与假日均可送货</span> <i class="fa fa-angle-right"></i></p>
+</div>
+<!--礼物包装-->
+<!--<div class="fool gift">-->
+<!--    <span>礼物包装</span>-->
+<!--    <p><span>请选择</span> <i class="fa fa-angle-right"></i></p>-->
+<!--</div>-->
+<!--总计-->
+<div class="total">
+    <p><span>总件数</span> <i>共1件</i></p>
+    <p><span>商品总额</span> <i>¥95.00</i></p>
+    <p><span>折扣金额</span> <i>¥0.00</i></p>
+    <p><span>优惠券抵扣</span> <i>¥0.00</i></p>
+    <p><span>运费</span> <i>¥10.00</i></p>
+</div>
+<!--底部浮动栏-->
+<div class="submit">
+    <div class="left">
+        <span>需支付</span>
+        <i>¥105.00</i>
+    </div>
+    <a href="../pay/index.html">
+        提交订单
+    </a>
+</div>
+<!--商品列表cover-->
+<div class="good-list-cover">
+    <!--头部浮动-->
+    <div class="header">
+        <img src="./img/back.png" alt="" class="logoImg">
+        <span>商品清单</span>
+        <div class="more">
+        </div>
+    </div>
+    <div class="title">
+        已购置物品清单
+    </div>
+    <ul>
+        <li>
+            <a href=""><img src="./img/p1-1.jpg" alt=""></a>
+            <div class="content">
+                <p>SEPHORACOLLECTION</p>
+                <p>丝芙兰染唇膏</p>
+                <div class="size">
+                    <span>5ML: 草莓红</span>
+                </div>
+                <div class="price-num">
+                    <span>￥<i class="price">95.00</i></span>
+                    <div class="num">
+                        x1
+                    </div>
+                </div>
+            </div>
+        </li>
+    </ul>
+</div>
+<!--支付方式cover-->
+<div class="payment-cover-bg"></div>
+<div class="payment-cover">
+    <div class="title">
+        <p>支付方式</p>
+        <img src="./img/close.png" alt="" class="close">
+    </div>
+    <ul>
+        <li>
+            <div class="pay-type">
+                <img src="./img/online.png" alt="">
+                <span>在线支付</span>
+            </div>
+            <input type="radio" checked name="1">
+        </li>
+        <li>
+            <div class="pay-type">
+                <img src="./img/home.png" alt="">
+                <span>货到付款</span>
+            </div>
+            <input type="radio" name="1">
+        </li>
+    </ul>
+    <button type="button">
+        确定
+    </button>
+</div>
+<!--配送时间cover-->
+<div class="time-cover">
+    <!--头部浮动-->
+    <div class="header">
+        <img src="./img/back.png" alt="" class="logoImg">
+        <span>配送时间</span>
+        <div class="more">
+        </div>
+    </div>
+    <ul>
+        <li>
+            <span>工作日、双休日和假日均可收货</span>
+            <input type="radio" checked name="2">
+        </li>
+        <li>
+            <span>只双休日、假日送货(工作日不送)</span>
+            <input type="radio" name="2">
+        </li>
+        <li>
+            <span>只工作日送货(双休日、假日不送)</span>
+            <input type="radio" name="2">
+        </li>
+    </ul>
+    <button type="button">
+        确定
+    </button>
+</div>
+<script src="../asset/lib/jquery-3.3.1.min.js"></script>
+<script src="../asset/lib/swiper/js/swiper.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

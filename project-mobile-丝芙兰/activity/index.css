@@ -1,0 +1,233 @@
+/*public*/
+* {
+    box-sizing: border-box;
+
+}
+
+p, span, em, i, b {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+}
+
+/*<!--头部浮动-->*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.03vw 2.13vw;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #F5F5F5;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 20;
+}
+
+.dis {
+    display: none;
+}
+
+.header > .logoImg {
+    width: 6.37vw;
+    height: 6.37vw;
+}
+
+.header .more {
+    font-size: 8vw;
+    color: #666;
+    line-height: 100%;
+    overflow: hidden;
+    height: 8vw;
+    width: 8vw;
+    position: relative;
+}
+
+.header .more span {
+    height: 8vw;
+    width: 8vw;
+    position: absolute;
+    top: -2vw;
+}
+
+.header .tab {
+    display: flex;
+    font-size: 3.87vw;
+}
+
+.header .tab li {
+    position: relative;
+    margin: 0 3.75vw;
+}
+
+.header .tab li.active {
+    color: black;
+    font-weight: bold;
+
+}
+
+.header .tab li.active::after {
+    content: '';
+    display: block;
+    width: 100%;
+    position: absolute;
+    top: 8.4vw;
+    left: 0;
+    border-top: 2px solid black;
+
+}
+
+.header > span {
+    font-size: 4vw;
+    color: black;
+}
+
+/*<!--导航栏-->*/
+.guide {
+    background-color: white;
+    display: none;
+}
+
+.guide ul {
+    display: flex;
+    justify-content: center;
+    padding: 2.13vw 0;
+    position: relative;
+}
+
+.guide ul:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #CCCCCC;
+    transform: scale(0.5 1);
+}
+
+.guide ul li {
+    margin: 0 3vw;
+}
+
+.guide ul .active span {
+    color: black;
+}
+
+.guide ul li img {
+    width: 6.42vw;
+    height: 6.42vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.guide ul li span {
+    display: inline-block;
+    width: 13.6vw;
+    font-size: 2.93vw;
+    margin-top: 1.33vw;
+    text-align: center;
+}
+
+.guide-fixed {
+    position: fixed;
+    top: 12vw;
+    width: 100%;
+    left: 0;
+    z-index: 2;
+}
+
+/*<!--banner-->*/
+.banner {
+    width: 100%;
+    display: block;
+    margin-top: 12vw;
+}
+
+.s-banner {
+    width: 100%;
+    display: block;
+}
+
+.goods-img {
+    display: block;
+}
+
+.goods-img img {
+    width: 100%;
+    display: block;
+}
+
+.good-list {
+    background: url("./img/bg-7.jpg");
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+.good-list li {
+    width: 47%;
+    background-color: white;
+    text-align: center;
+    margin-bottom: 2vw;
+}
+
+.good-list li a {
+    display: block;
+    padding: 3vw 5vw;
+}
+
+.good-list li a img {
+    width: 100%;
+
+}
+
+.good-list li a .title {
+    font-size:3vw ;
+    color: black;
+    font-weight: bolder;
+    padding-bottom: 1vw;
+}
+.good-list li a span{
+    font-size: 3vw;
+    color: black;
+}
+.good-list li a .price{
+    padding: 3vw 0 0 0 ;
+}
+.good-list li a .price span{
+    font-size: 1.88vw;
+    color: #999999;
+}
+.good-list li a .price i{
+    font-size: 4vw;
+    color: black;
+}
+.good-list li a  .buy{
+    width: 21vw;
+    display: block;
+    margin: 1vw auto 0 auto;
+}
+.good-list li:nth-child(2n) {
+    margin-left: 2vw;
+}
+.top{
+    display: block;
+    width: 18vw;
+    height: 18vw;
+    position: fixed;
+    bottom: 15vw;
+    right: 3vw;
+    display: none;
+}

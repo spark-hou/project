@@ -1,0 +1,256 @@
+/*public*/
+*{
+    box-sizing: border-box;
+
+}
+p,span,em,i,b{
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+.container{
+    width: 100%;
+}
+body,html{
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #f5f5f5;
+}
+/*<!--头部浮动-->*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.03vw 2.13vw;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #F5F5F5;
+
+
+}
+
+
+.dis {
+    display: none;
+}
+
+.header > .logoImg {
+    width: 6.37vw;
+    height: 6.37vw;
+}
+
+.header span {
+    font-size: 5.2vw;
+    color: black;
+}
+
+.header .more {
+    font-size: 8vw;
+    color: #666;
+    line-height: 100%;
+    height: 8vw;
+    width: 8vw;
+    position: relative;
+}
+.header .more span{
+    font-size: 3.66vw;
+    color: #666666;
+    position: absolute;
+    width: 8vw;
+    top: 1vw;
+    right: 3vw;
+}
+/*<!--及时支付-->*/
+.payAtTime{
+    display: flex;
+    padding: 6vw 3vw;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    margin-top: 3.47vw;
+}
+.payAtTime img{
+    width: 10vw;
+    height: 10vw;
+    margin-right: 3vw;
+}
+.payAtTime .content{
+    font-size: 4vw;
+    color: black;
+}
+/*<!--添加收货地址-->*/
+
+.fool {
+    background-color: white;
+    padding: 0 3vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 3.8vw;
+    color: black;
+    border-bottom: 2px solid #f5f5f5;
+}
+.address{
+    margin: 3vw 0;
+    padding: 3vw 3vw;
+}
+.address .content{
+    width: 80%;
+}
+.address .content .title {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 5vw;
+}
+.address .content p{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 4vw;
+    font-size: 3.33vw;
+    color: #999999;
+    padding-top: 3vw;
+
+}
+.address  .content p img {
+    display: inline-block;
+    width: 4vw;
+    height: 5vw;
+    margin-right: 2vw;
+}
+/*<!--订单详情-->*/
+.order-detail span{
+    color: #666666;
+}
+.order-detail a{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+
+}
+.order-detail{
+    padding: 3.47vw 3vw;
+}
+.order-detail b{
+    color: red;
+}
+/*<!--支付方式-->*/
+.payment-cover{
+    position: relative;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    background-color: white;
+    font-size: 4vw;
+    color: black;
+    z-index: 21;
+}
+.payment-cover .title{
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 3vw;
+    font-size: 4vw;
+    color: black;
+    border-bottom: 1px solid #f5f5f5;
+}
+.payment-cover .title .close{
+    width: 4vw;
+    height: 4vw;
+}
+.payment-cover li{
+    padding: 2vw 3vw;
+    border-top: 1px solid #f5f5f5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.payment-cover li .pay-type{
+    display: flex;
+    align-items: center;
+
+}
+.payment-cover li .pay-type img{
+    width: 8vw;
+    height: 8vw;
+    display: block;
+    margin-right: 3vw;
+}
+.payment-cover li input{
+    width: 6vw;
+    height: 6vw;
+    -webkit-appearance: none;
+    background: url("./img/radio-w.png") ;
+    background-size: cover;
+    outline: none;
+}
+.payment-cover li input:checked{
+    background: url("./img/radio-b.png") ;
+    background-size: cover;
+}
+.payment-cover ul{
+   margin-top:2.93vw ;
+}
+/*<!--底部浮动栏-->*/
+.submit {
+    display: flex;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    align-items: center;
+    z-index: 10;
+
+}
+
+.submit .left {
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: white;
+    height: 14vw;
+}
+
+.submit .left input {
+    width: 4.2vw;
+    height: 4.2vw;
+    display: block;
+    background-color: white;
+    outline: none;
+    -webkit-appearance: none;
+    border: 1px solid #999999;
+    margin-left: 3vw;
+    margin-right: 2vw;
+
+}
+
+.submit a {
+    display: block;
+    width: 30%;
+    font-size: 4.2vw;
+    text-align: center;
+    color: white;
+    background-color: red;
+    height: 14vw;
+    line-height: 14vw;
+}
+
+.submit .left {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-left: 4vw;
+}
+
+.submit .left span {
+    font-size: 2.98vw;
+    display: inline-block;
+    margin-right: 2vw;
+}
+
+.submit .left i {
+    font-size: 3.88vw;
+    color: black;
+}

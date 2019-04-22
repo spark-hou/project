@@ -1,0 +1,336 @@
+/*public*/
+* {
+    box-sizing: border-box;
+
+}
+
+p, span, em, i, b {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+}
+
+body, html {
+    width: 100%;
+    min-height: 100%;
+    background-color: #f5f5f5;
+}
+
+/*<!--导航栏-->*/
+.guide {
+    background-color: white;
+}
+
+.guide ul {
+    display: flex;
+    justify-content: center;
+    padding: 2.13vw 0;
+    position: relative;
+}
+
+.guide ul:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #CCCCCC;
+    transform: scale(0.5 1);
+}
+
+.guide ul li {
+    margin: 0 3vw;
+}
+
+.guide ul .active span {
+    color: red;
+}
+
+.guide ul li img {
+    width: 7.42vw;
+    height: 7.42vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.guide ul li span {
+    display: inline-block;
+    width: 13.6vw;
+    font-size: 2.93vw;
+    margin-top: 1.33vw;
+    text-align: center;
+}
+
+.guide-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+/*<!--头部浮动-->*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.03vw 2.13vw;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #F5F5F5;
+
+
+}
+
+
+.dis {
+    display: none;
+}
+
+.header > .logoImg {
+    width: 6.37vw;
+    height: 6.37vw;
+}
+
+.header span {
+    font-size: 5.2vw;
+    color: black;
+}
+
+.header .more {
+    font-size: 8vw;
+    color: #666;
+    line-height: 100%;
+    height: 8vw;
+    width: 8vw;
+    position: relative;
+}
+
+.header .more span {
+    font-size: 3.66vw;
+    color: #666666;
+    position: absolute;
+    width: 8vw;
+    top: 1vw;
+    right: 3vw;
+}
+
+/*<!--头像-->*/
+.avatar {
+    background-color: white;
+    text-align: center;
+    font-size: 4.2vw;
+    color: black;
+    padding-bottom: 6.13vw;
+    padding-top: 4.53vw;
+}
+
+.avatar a {
+    display: block;
+    margin: 0 auto 0 auto;
+    width: 16.8vw;
+    height: 16.8vw;
+    padding-bottom: 2vw;
+
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+}
+
+.avatar span {
+    display: inline-block;
+    width: 40vw;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+/*<!--猜你喜欢-->*/
+.guess-like {
+    padding-bottom: 15vw;
+}
+
+.guess-like .title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4.2vw;
+    color: black;
+    padding: 3.27vw 0;
+}
+
+.guess-like .title img {
+    display: block;
+    margin-right: 2vw;
+    width: 5.87vw;
+    height: 4.87vw;
+}
+
+.like-list {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: white;
+}
+
+.like-list li {
+    width: 50%;
+    border-bottom: 1px solid #F5F5F5;
+}
+
+.like-list li:nth-child(2n-1) {
+    border-right: 1px solid #F5F5F5;
+}
+
+.like-list li .img {
+    width: 100%;
+}
+
+.like-list li img {
+    width: 40vw;
+    display: block;
+    margin: 4vw auto 0 auto;
+}
+
+.like-list li .content {
+    position: relative;
+}
+
+.like-list li .content p {
+    font-size: 2.33vw;
+    color: black;
+    padding: 3vw 5vw 0 5vw;
+    width: 100%;
+    overflow: hidden;
+}
+
+.like-list li .content span {
+    font-size: 3.12vw;
+    color: black;
+    width: 100%;
+    display: inline-block;
+    padding: 1vw 5vw;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.like-list li .content i {
+    font-size: 3.12vw;
+    color: black;
+    display: inline-block;
+    padding: 1vw 5vw;
+}
+
+/*<!--花粉卡-->*/
+.user-info {
+    position: relative;
+    padding-top: 22vw;
+
+}
+
+.user-info .info-box {
+    width: 94%;
+    margin: 0 auto;
+    border-radius: 10px;
+    box-shadow: 0 -10px 15px #ddd;
+    border: 0.5px solid #ddd;
+    position: absolute;
+    top: 0;
+    left: 3vw;
+    z-index: 10;
+    background-color: white;
+}
+
+.user-info .info-box a {
+    width: 32%;
+    display: inline-block;
+    text-align: center;
+    padding: 5.33vw 0;
+    font-size: 3.8vw;
+
+}
+
+.user-info .info-box a span,
+.user-info .info-box a i {
+    display: block;
+    padding-bottom: 2vw;
+
+}
+
+.user-info .info-box b {
+    font-size: 3.33vw;
+}
+
+.user-info .info-box a i {
+    color: red;
+}
+
+.user-info .card {
+    position: relative;
+    width: 94%;
+    height: 43vw;
+    background: url("img/profile_card_pink.png") no-repeat;
+    background-size: cover;
+    margin: 0 auto 0 auto;
+    z-index: 1;
+    padding: 5vw 5vw 0 5vw;
+    font-size: 3.66vw;
+    color: white;
+}
+
+.user-info .card p {
+    padding-bottom: 4vw;
+}
+
+.user-info .card .detail {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 5vw;
+    padding-left: 13vw;
+}
+
+.user-info .card .detail a {
+    color: white;
+}
+
+/*<!--我的订单-->*/
+.my-order {
+    width: 96%;
+    margin: 2vw auto;
+    font-size: 3.66vw;
+    padding: 3vw 4vw;
+    background-color: white;
+}
+
+.my-order .title {
+    display: flex;
+    justify-content: space-between;
+    padding: 3vw 0;
+    color: black;
+    border-bottom: 1px solid #999999;
+}
+.my-order ul{
+    display: flex;
+}
+.my-order li {
+    width: 25%;
+    text-align: center;
+}
+
+.my-order li img {
+    display: block;
+    width: 8vw;
+    height: 8vw;
+    margin: 4vw auto 1vw auto;
+}
+.other li img{
+    width: 10vw;
+    height: 10vw;
+}

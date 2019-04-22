@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width,initial-scale=1.0,,minimum-scale=1,maximum-scale=1,user-scalable=no">
+    <title>Title</title>
+    <link rel="stylesheet" href="../asset/lib/reset.css">
+    <link href="https://cdn.bootcss.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="../asset/lib/swiper/css/swiper.min.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+<!--头部浮动-->
+<div class="header header-back">
+    <img src="img/back-2.png" alt="" class="logoImg">
+    <span>收货地址</span>
+    <div class="more">
+
+    </div>
+</div>
+<!--收获地址列表-->
+<ul class="address-list">
+    <li class="default">
+        <input type="radio" name="1" checked>
+        <div class="content">
+            <p>
+                <span>h先生</span>
+                <i>155****5555</i>
+            </p>
+            <b> <em>[默认地址]</em>上海上海市黄浦区212131</b>
+        </div>
+        <img src="./img/write.png" alt="">
+    </li>
+    <li>
+        <input type="radio" name="1" >
+        <div class="content">
+            <p>
+                <span>h先生</span>
+                <i>155****5555</i>
+            </p>
+            <b> <em>[默认地址]</em>上海上海市黄浦区212131</b>
+        </div>
+        <img src="./img/write.png" alt="">
+    </li>
+</ul>
+<!--修改-->
+<div class="add-address">
+    新增收货地址
+</div>
+<!--新增收获地址cover-->
+<div class="add-new cover">
+    <div class="header">
+        <img src="img/back-2.png" alt="" class="logoImg">
+        <span>新增收货地址</span>
+        <div class="more">
+        </div>
+    </div>
+    <div class="info-set">
+        <input type="text" placeholder="收件人姓名">
+        <input type="text" placeholder="手机号码">
+        <input type="text" placeholder="座机号码（选填）">
+        <input type="text" placeholder="邮政编码（选填）">
+        <input type="text" placeholder="详细地址">
+    </div>
+    <div class="set-default">
+        <span>设为默认地址</span>
+        <img src="./img/radio-left.png" alt="">
+    </div>
+    <div class="button">
+        新增收货地址
+    </div>
+</div>
+
+<!--修改收获地址cover-->
+<div class="change-add cover">
+    <div class="header">
+        <img src="img/back-2.png" alt="" class="logoImg">
+        <span>编辑收货地址</span>
+        <div class="more">
+            <span>删除</span>
+        </div>
+    </div>
+    <div class="info-set">
+        <input type="text" placeholder="收件人姓名">
+        <input type="text" placeholder="手机号码">
+        <input type="text" placeholder="座机号码（选填）">
+        <input type="text" placeholder="邮政编码（选填）">
+        <input type="text" placeholder="详细地址">
+    </div>
+    <div class="set-default">
+        <span>设为默认地址</span>
+        <img src="./img/radio-left.png" alt="">
+    </div>
+    <div class="button">
+        保存修改
+    </div>
+</div>
+<script src="../asset/lib/jquery-3.3.1.min.js"></script>
+<script src="../asset/lib/swiper/js/swiper.min.js"></script>
+<script src="index.js"></script>
+</body>
+</html>

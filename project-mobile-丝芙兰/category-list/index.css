@@ -1,0 +1,327 @@
+/*public*/
+* {
+    box-sizing: border-box;
+
+}
+
+p, span, em, i, b {
+    margin: 0;
+    padding: 0;
+    font-style: normal;
+    font-weight: normal;
+}
+
+.container {
+    width: 100%;
+}
+
+body, html {
+    background-color: #f5f5f5;
+    width: 100%;
+    height: 100%;
+}
+
+/*<!--导航栏-->*/
+.guide {
+    background-color: white;
+}
+
+.guide ul {
+    display: flex;
+    justify-content: center;
+    padding: 2.13vw 0;
+    position: relative;
+}
+
+.guide ul:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    top: 0;
+    left: 0;
+    border-top: 1px solid #CCCCCC;
+    transform: scale(0.5 1);
+}
+
+.guide ul li {
+    margin: 0 3vw;
+}
+
+.guide ul .active span {
+    color: red;
+}
+
+.guide ul li img {
+    width: 7.42vw;
+    height: 7.42vw;
+    display: block;
+    margin: 0 auto;
+}
+
+.guide ul li span {
+    display: inline-block;
+    width: 13.6vw;
+    font-size: 2.93vw;
+    margin-top: 1.33vw;
+    text-align: center;
+}
+
+.guide-fixed {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    z-index: 10;
+}
+
+/*<!--头部浮动-->*/
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 2.03vw 2.13vw;
+    align-items: center;
+    background-color: white;
+    border-bottom: 1px solid #F5F5F5;
+
+}
+
+.fixed {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+
+.dis {
+    display: none;
+}
+
+.header > .logoImg {
+    width: 6.87vw;
+    height: 6.87vw;
+}
+
+.header .sepLogo {
+    width: 40.33vw;
+}
+
+.header .loginSta {
+    width: 8.67vw;
+    height: 8.67vw;
+    display: block;
+    margin-right: 2vw;
+}
+
+.header .searchBox img {
+    display: inline-block;
+    vertical-align: middle;
+    width: 4.67vw;
+    height: 4.67vw;
+    margin: 0 2.13vw;
+}
+
+.header .searchBox input {
+    font-size: 4.12vw;
+    outline: none;
+    border: none;
+    vertical-align: middle;
+    display: inline-block;
+    background-color: #efebe9;
+
+}
+
+.header .searchBox {
+    width: 70vw;
+    height: 9.73vw;
+    background-color: #efebe9;
+    line-height: 9.73vw;
+}
+
+/*<!--隐藏的搜索页面-->*/
+.search-cover {
+    position: fixed;
+    z-index: 11;
+    top: 0;
+    left: 0;
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    display: none;
+}
+
+.search-cover .header {
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.search-cover .header span {
+    font-size: 8.93vw;
+}
+
+.search-cover .header .logoImg {
+    display: block;
+    margin-left: 2vw;
+    width: 6.37vw;
+    height: 6.37vw;
+}
+
+.search-cover .header i {
+    font-size: 4.93vw;
+    color: #666;
+}
+
+.search-cover .header .searchBox {
+    border-radius: 50px;
+}
+
+.search-cover .list {
+    width: 90%;
+    margin: 0 auto;
+    position: relative;
+    border-top: 1px solid #F2F2F2;
+    padding-bottom: 12vw;
+}
+
+.search-cover .list > p {
+    font-size: 4.23vw;
+    color: black;
+    margin-top: 4.53vw;
+}
+
+.search-cover .list ul {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2.67vw;
+
+}
+
+.search-cover .list ul li {
+    margin: 0 1.83vw 3.2vw 0;
+}
+
+.search-cover .list b {
+    position: absolute;
+    top: 5vw;
+    right: 2vw;
+    font-size: 5.34vw;
+}
+
+.search-cover .list ul a {
+    display: block;
+    font-size: 2.93vw;
+    color: #666666;
+    padding: 2.4vw 1.87vw;
+    background-color: #F5F5F5;
+}
+
+.search-cover .list .watch-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.search-cover .list .watch-list .item {
+    width: 29.4vw;
+    text-align: center;
+    margin: 2vw 2vw 0 2vw;
+}
+
+.search-cover .list .watch-list .item img {
+    width: 100%;
+    display: block;
+
+}
+
+.search-cover .list .watch-list .item p {
+    text-overflow: ellipsis;
+    font-size: 2.43vw;
+    color: black;
+    text-align: center;
+}
+
+.search-cover .list .watch-list .item span {
+    font-size: 2.98vw;
+    color: black;
+    display: inline-block;
+    margin-top: 1vw;
+}
+
+.search-cover .list .watch-list .item i {
+    font-size: 2.98vw;
+    color: black;
+    display: inline-block;
+    margin-top: 1vw;
+}
+
+/*<!--左边列表-->*/
+.tab-list {
+    position: fixed;
+    width: 24%;
+    top: 14vw;
+    height: 100%;
+    background-color: #f5f5f5;
+}
+
+.tab-list li {
+    font-size: 3.8vw;
+    color: black;
+    text-align: center;
+    padding: 5vw 0;
+}
+
+.tab-list li.active {
+    background-color: white;
+    color: red;
+}
+
+/*<!--中间内容-->*/
+.content-box {
+    margin-top: 14vw;
+    padding: 0 3vw 0 27vw;
+    background-color: white;
+}
+
+.content-box .banner {
+    display: block;
+    width: 100%;
+}
+.content-box .list{
+    padding-bottom: 20vw;
+}
+.content-box li{
+    margin-top: 2vw;
+    padding-bottom: 4vw;
+}
+.content-box li .title {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    font-size: 3.66vw;
+    color: #999999;
+    align-items: center;
+    padding: 3.7vw 0;
+}
+
+.content-box li .title i {
+    font-size: 5vw;
+}
+
+.content-box li .item {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.content-box li .item a {
+    display: block;
+    width: 33.33%;
+    font-size: 3.33vw;
+    text-align: center;
+
+}
+
+.content-box li .item a img {
+    display: block;
+    width: 80%;
+    margin: 0 auto 2vw auto;
+}
+
