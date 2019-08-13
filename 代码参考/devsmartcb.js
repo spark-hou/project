@@ -16,6 +16,8 @@ wifiid
 deviceid
 devname
 */
+
+console.log("---------------------------a",window.WebViewJavascriptBridge)
 var native_callback_token = function(pid, errCode, jsonStr) {
 	//Todo
 	console.log("pid: " + pid + " errCode: " + errCode + " jsonStr: " + jsonStr);
