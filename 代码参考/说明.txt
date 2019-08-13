@@ -1,0 +1,49 @@
+
+1在multiswitch中定义了3个button
+<!--<button style="z-index:1000;margin-top:300px" onclick="request_userinfo()">request_userinfo</button>
+		<button style="z-index:1000;margin-top:100px" onclick="request_devinfo()">request_devinfo</button>
+		<button style="z-index:1000;margin-top:100px" onclick="get_CurrentLanguage()">get_CurrentLanguage</button>-->
+
+
+2在devsmartrequest.js中定义
+var request_userinfo = function() {
+	if(platformInfo.isiOS) {
+		window.webkit.messageHandlers.JSCtrl.postMessage(['request_button', pid, key, para]);
+	} else {
+		console.log("request_userinfo ");
+		SmartDev.request_userinfo(0);
+	}
+};
+
+var request_devinfo = function() {
+	if(platformInfo.isiOS) {
+		window.webkit.messageHandlers.JSCtrl.postMessage(['request_button', pid, key, para]);
+	} else {
+		console.log("request_devinfo ");
+		SmartDev.request_devinfo(0);
+	}
+};
+var get_CurrentLanguage = function() {
+	if(platformInfo.isiOS) {
+		window.webkit.messageHandlers.JSCtrl.postMessage(['request_button', pid, key, para]);
+	} else {
+		console.log("get_CurrentLanguage ");
+		SmartDev.get_CurrentLanguage(0);
+	}
+};
+
+
+3在devsmartcb.js中定义回调
+
+var native_callback_userinfo = function(pid, i) {
+	console.log('native_callback_userinfo pid : ' + pid);
+	console.log('native_callback_userinfo jsonStr is : ' + i);
+};
+
+var native_callback_devinfo = function(pid, i) {
+	console.log('native_callback_devinfo pid : ' + pid);
+	console.log('native_callback_devinfo jsonStr is : ' + i);
+};
+var native_callback_language = function(language) {
+	console.log('native_callback_language language : ' + language);
+};

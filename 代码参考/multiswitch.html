@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+
+	<head>
+		<meta charset="utf-8" >		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+		<title>二路、三路开关</title>
+		<link rel="stylesheet" type="text/css" href="css/multiswitch.css" />
+		<link rel="stylesheet" type="text/css" href="css/CxxDevSwitchDtl.css" />
+		<link rel="stylesheet" type="text/css" href="css/rHeader.css" />
+		<link rel="stylesheet" type="text/css" href="css/rWarning.css" />
+		<link rel="stylesheet" type="text/css" href="css/rFooter.css" />
+		<script src="js/lib/mui.min.js"></script>
+		<link href="css/mui.min.css" rel="stylesheet" />
+		<script type="text/javascript" charset="utf-8">
+			mui.init();			
+		</script>
+		<link rel="stylesheet" type="text/css" href="css/smart-util.css" />
+	</head>
+
+	<body>
+		<header style="position: absolute;"></header>
+
+
+
+		<div class="devStatusBlock">
+			<img class="devimg" />
+		</div>
+		<button style="z-index:1000;margin-top:300px" onclick="request_userinfo()">request_userinfo</button>
+		<button style="z-index:1000;margin-top:100px" onclick="request_devinfo()">request_devinfo</button>
+		<button style="z-index:1000;margin-top:100px" onclick="get_CurrentLanguage()">get_CurrentLanguage</button>
+		<div class="contentTxt">
+			<p class="p-inline"></p><p id="status"></p>
+        	<p class="p-inline2"></p><p id="status2"></p>
+    		<p class="p-inline3"></p><p id="status3"></p>
+        </div>
+		<!--开关部分-->
+		<div class="switchFunc"></div>
+		<!--底部-->
+		<footer></footer>
+		<div id='edit2'>
+			<div id='shadow_div'></div>
+			<div id='edit_div'>
+			    <p class='title'></p>
+			    <input id='firstway' class="edit_input" type='text' placeholder="一路开关"/>
+			    <input id='secondway' class="edit_input" type='text' placeholder="二路开关"/>
+			    <div id='cancel'></div>
+			    <div id='confirm'></div>
+			</div>
+		</div>
+		<div id='edit3'>
+			<div id='shadow_div3'></div>
+			<div id='edit_div3'>
+			    <p class='title3'></p>
+			    <input id='firstway3' type='text' class="edit_input"/>
+			    <input id='secondway3' type='text' class="edit_input"/>
+			    <input id='thirdway3' type='text' class="edit_input"/>
+			    <div id='cancel3'></div>
+			    <div id='confirm3'></div>
+			</div>
+		</div>
+
+		</div>
+		<script type="text/javascript" src="//cdn.jsdelivr.net/npm/eruda"></script>
+		<script>eruda.init();</script>
+		<script type="text/javascript" src="js/lib/jquery.js"></script>
+		<script type="text/javascript" src="js/lib/json2.js"></script>
+		<script type="text/javascript" src="js/lib/json_parse.js"></script>
+		<script type="text/javascript" src="js/lib/unixTimestamp.js"></script>
+		<script type="text/javascript" src="js/lib/moment.js"></script>
+		<script type="text/javascript" src="js/lib/Map.js"></script>
+		<script type="text/javascript" src="js/gwdataprg/paramForLang.js"></script>
+		<script type="text/javascript" src="js/gwdataprg/commUtils.js"></script>
+		<script type="text/javascript" src="js/lib/jbase64.js"></script>
+		<script type="text/javascript" src="js/gwdataprg/gworderctrldata.js"></script>
+		<script type="text/javascript" src="js/gwdataprg/gwdevuidata.js"></script>		
+		<script type="text/javascript" src="js/gwdataprg/gwcmdctrlkey.model.js" ></script>
+		<script type="text/javascript" src="js/gwdataprg/gwstate.model.js"></script>
+		<script type="text/javascript" src="js/app/commVar.js" ></script>
+		<script type="text/javascript" src="js/app/smart.util.js"></script>
+		<script type="text/javascript" src="js/app/rHeader.js"></script>
+		<script type="text/javascript" src="js/app/rWarning.js"></script>
+		<script type="text/javascript" src="js/app/devSwitchUnitDtl.js"></script>
+		<script	type="text/javascript" src="js/app/gwdevMultSwitchUnitDtl.js"></script>
+		<script	type="text/javascript" src="js/app/devWithdrawUnitDtl.js"></script>
+		<script type="text/javascript" src="js/gwdataprg/commUIFunc.js" ></script>
+		<script type="text/javascript" src="js/interface/devsmartcb.js"></script>
+		<script type="text/javascript" src="js/interface/devsmartrequest.js"></script>
+		<script type="text/javascript" src="js/app/rFooter.js"></script>
+		<script type="text/javascript" src="js/gwdataprg/multiswitch.js"></script>		
+     	<script type="text/javascript" src="js/app/init.js"></script>
+		 <script type="text/javascript" src="js/steady-state.js"></script>
+		 <script type="text/javascript" src="./devsmartcb.js"></script>
+		 <script type="text/javascript" src="./devsmartrequest.js"></script>
+	</body>
+
+</html>
