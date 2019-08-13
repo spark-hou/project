@@ -83,7 +83,7 @@ var request_userinfo = function() {
 		window.webkit.messageHandlers.JSCtrl.postMessage(['request_button', pid, key, para]);
 	} else {
 		console.log("request_userinfo ");
-		SmartDev.request_userinfo(0);
+		SmartDev.request_userinfo(new Date());
 	}
 };
 
